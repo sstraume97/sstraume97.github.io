@@ -13,5 +13,5 @@ Du er nå meldt på nyhetsbrevet. Bekreft gjerne i e-posten du mottar – da er 
 ## Skjema
 type: hubspot
 portal-id: 139809075
-form-id: 37ec6bef-dce5-482d-b5b8-eca9d13e7f43
+form-id: 0e72c802-50c1-4d2c-9e57-b8b9ff2070a8
 region: eu1
