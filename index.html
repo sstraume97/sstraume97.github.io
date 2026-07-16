@@ -633,6 +633,10 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
     <div style="border:1px solid var(--color-accent); border-radius:var(--radius-md); padding:var(--space-4)"><strong style="font-family:var(--font-heading); font-weight:400">Takk for at du melder deg på!</strong> Bekreft gjerne i e-posten du mottar.</div>
   </sc-if>
   <sc-if value="{{ newsletterOpen }}" hint-placeholder-val="{{ true }}">
+  <sc-if value="{{ isHubspotSkjema }}" hint-placeholder-val="{{ false }}">
+    <div class="hs-form-frame" data-region="{{ hubspotRegion }}" data-form-id="{{ hubspotFormId }}" data-portal-id="{{ hubspotPortalId }}" style="max-width:440px; margin:0 auto; text-align:left"></div>
+  </sc-if>
+  <sc-if value="{{ !isHubspotSkjema }}" hint-placeholder-val="{{ true }}">
   <form action="https://api.web3forms.com/submit" method="POST" style="display:flex; flex-direction:column; gap:var(--space-3); max-width:440px; margin:0 auto; text-align:left">
     <input type="hidden" name="access_key" value="2cd43b89-20ea-4fb1-b774-2bd546bbcb61">
     <input type="hidden" name="subject" value="Ny nyhetsbrev-påmelding">
@@ -643,6 +647,7 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
     <label style="display:flex; align-items:center; gap:8px; font-size:14px"><input type="checkbox" name="Jeg bekrefter påmelding" required=""> Jeg bekrefter påmelding</label>
     <button type="submit" class="btn btn-primary">Meld meg på</button>
   </form>
+  </sc-if>
   </sc-if>
   <p class="text-muted" style="font-size: 20px; margin-top: var(--space-3); font-style: italic; font-family: LM Roman 10">Foretrekker du RSS? <a href="https://sondrestraume.wordpress.com/feed/" target="_blank" rel="noopener">Abonner via RSS →</a></p>
 </section>
@@ -777,6 +782,7 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
 </div>
 </x-dc>
 <script src="//js-eu1.hs-scripts.com/139809075.js" id="hs-script-loader" async="" defer=""></script>
+<script src="https://js-eu1.hsforms.net/forms/embed/139809075.js" defer=""></script>
 <script type="text/x-dc" data-dc-script data-props="{&quot;startView&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;hjem&quot;,&quot;blogg&quot;,&quot;publikasjoner&quot;,&quot;prosjekter&quot;,&quot;cv&quot;,&quot;kurs&quot;,&quot;kontakt&quot;,&quot;nyhetsbrev&quot;],&quot;default&quot;:&quot;hjem&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Oppsett&quot;},&quot;podcastFeatured&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Oppsett&quot;},&quot;showBlogTags&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Oppsett&quot;}}">
 class Component extends DCLogic {
   constructor(props){
@@ -1219,11 +1225,22 @@ class Component extends DCLogic {
 
     // ---- Kontakt / Nyhetsbrev / Stilguide content ----
     const kontaktVals = { kontaktIntro: pick(s.kontaktMd,"Intro","Send meg en melding, så svarer jeg så snart jeg kan.") };
+    const skjemaRaw = s.nyhetsbrevMd && s.nyhetsbrevMd["Skjema"];
+    const skjemaCfg = {};
+    (skjemaRaw||"").split("\n").map(l=>l.trim()).filter(Boolean).forEach(l=>{
+      const idx = l.indexOf(":");
+      if(idx>-1) skjemaCfg[l.slice(0,idx).trim().toLowerCase()] = l.slice(idx+1).trim();
+    });
+    const isHubspotSkjema = (skjemaCfg["type"]||"").toLowerCase()==="hubspot";
     const nyhetsbrevVals = {
       nyhetKicker: pick(s.nyhetsbrevMd,"Kicker","Hold deg oppdatert"),
       nyhetIntro: pick(s.nyhetsbrevMd,"Intro","Få nye blogginnlegg, podkastepisoder og kursnyheter rett i innboksen. Ingen spam."),
       takkTittel: pick(s.nyhetsbrevMd,"Takk-tittel","Takk for påmeldingen!"),
-      takkTekst: pick(s.nyhetsbrevMd,"Takk-tekst","Du er nå meldt på nyhetsbrevet. Bekreft gjerne i e-posten du mottar – da er du sikret nye blogginnlegg, podkastepisoder og kursnyheter rett i innboksen.")
+      takkTekst: pick(s.nyhetsbrevMd,"Takk-tekst","Du er nå meldt på nyhetsbrevet. Bekreft gjerne i e-posten du mottar – da er du sikret nye blogginnlegg, podkastepisoder og kursnyheter rett i innboksen."),
+      isHubspotSkjema,
+      hubspotPortalId: skjemaCfg["portal-id"] || "139809075",
+      hubspotFormId: skjemaCfg["form-id"] || "",
+      hubspotRegion: skjemaCfg["region"] || "eu1"
     };
     const stilguideVals = { stilguideIntro: pick(s.stilguideMd,"Intro","Referanse for elementer brukt i artikler og andre sider – overskrifter, skillelinjer, infobokser og standardkomponenter.") };
 

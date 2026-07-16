@@ -15,4 +15,4 @@ Zotero: https://www.zotero.org/sstraume97
 Autismepodden: https://www.autismepodden.no/
 
 ## Sidefot
-Tagline: Nestleder i Autismeforeningen i Norge
+Tagline: «Forskjellen på idioti og genialitet er at genialitet har sine begrensninger» - Albert Einstein

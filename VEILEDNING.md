@@ -1,0 +1,239 @@
+# Veiledning til nettsiden (sstraume97.github.io/hjem)
+
+Denne filen forklarer hvordan nettsiden er satt opp, og hvordan du gjør de vanligste endringene selv – uten å måtte røre koden.
+
+## 1. Hvordan siden fungerer
+
+- Siden er **statisk** og ligger i GitHub-repoet `sstraume97/hjem`, publisert med **GitHub Pages** direkte fra `main`-branchen (ingen bygge-/CI-steg – `.nojekyll` er der bare for å hindre Jekyll i å prøve å prosessere filene).
+- All layout, styling og programlogikk ligger i [`index.html`](index.html) (malen + en innebygd JS-klasse `Component`) og støttefilen [`support.js`](support.js) (rammeverket som tolker malen – rører du normalt aldri).
+- **Selve teksten** hentes derimot ikke fra `index.html`. Når siden lastes i nettleseren, henter den automatisk innholdet på nytt fra `.md`-filene i [`content/`](content/) via GitHub sitt offentlige API (`api.github.com/repos/sstraume97/hjem/contents/...`).
+  - Det betyr: **du trenger ikke bygge noe.** Du redigerer en `.md`-fil, pusher til `main`, og siden viser det nye innholdet ved neste sideinnlasting (noen ganger må du hard-refreshe / vente et minutt pga. nettleser- eller GitHub-caching).
+  - Hvis en `.md`-fil mangler eller ikke kan hentes (f.eks. du er offline, eller GitHubs API er rate-limitet), faller siden tilbake på hardkodet eksempeltekst inne i `index.html`. Det er normalt og ikke en feil – det er bare en beredskapstekst.
+- `_ds/`-mappen er et generert **designsystem** (farger, fonter, komponent-bundle). Den bør du ikke redigere manuelt – den er koblet til designverktøyet nettsiden er bygget med.
+
+## 2. Publisere en endring
+
+1. Rediger ønsket(e) fil(er) i `content/`.
+2. Commit og push til `main` på GitHub (`git add`, `git commit`, `git push`, eller last opp filen direkte i GitHub sitt nettgrensesnitt).
+3. Vent noen sekunder–minutter og last siden på nytt (evt. med Ctrl+Shift+R for å unngå nettleser-cache).
+
+Du treffer aldri et "bygg feilet"-scenario siden det ikke er noen build – i verste fall vises gammelt/fallback-innhold til nettleseren har hentet på nytt.
+
+> **Obs – API-rate-limit:** Siden bruker GitHubs *uautentiserte* API for å hente filene (60 kall/time per besøkende-IP). Det er sjelden et problem for normal trafikk, men er verdt å vite om dersom innhold plutselig ikke laster for en bruker.
+
+## 3. Redigere faste sider (tekst)
+
+Disse filene er delt opp i seksjoner med `## Overskrift` – overskriften er nøkkelen koden leter etter, så **ikke endre selve overskriftene**, bare teksten under. Mangler en seksjon i filen, brukes en innebygd standardtekst i stedet.
+
+| Side | Fil |
+|---|---|
+| Forside – hero (kicker/tittel/tekst) | [`content/home/hero.md`](content/home/hero.md) |
+| Forside – de 3 tjenestekortene | [`content/home/services.md`](content/home/services.md) (seksjonsnavn = korttittel) |
+| Forside – podkast-boks | [`content/home/podcast.md`](content/home/podcast.md) |
+| CV | [`content/cv.md`](content/cv.md) (se eget punkt under) |
+| Kurs | [`content/kurs.md`](content/kurs.md) |
+| Kontakt (intro-tekst) | [`content/kontakt.md`](content/kontakt.md) |
+| Nyhetsbrev | [`content/nyhetsbrev.md`](content/nyhetsbrev.md) (se punkt 3.2 for hvordan du bytter selve påmeldingsskjemaet) |
+| Stilguide (intro-tekst) | [`content/stilguide.md`](content/stilguide.md) |
+| Fagstoff (biblioteket) | [`content/fagstoff.md`](content/fagstoff.md) |
+| Fagstoff → Autisme | [`content/fagstoff-autisme.md`](content/fagstoff-autisme.md) |
+| Fagstoff → Asperger syndrom | [`content/fagstoff-asperger.md`](content/fagstoff-asperger.md) |
+| Fagstoff → Diagnosekriterier | [`content/fagstoff-diagnosekriterier.md`](content/fagstoff-diagnosekriterier.md) (fritekst i `## Tekst`, vises med linjeskift bevart) |
+| Fagstoff → Jenter/kvinner | [`content/fagstoff-jenter.md`](content/fagstoff-jenter.md) |
+| Om meg | [`content/om-meg.md`](content/om-meg.md) (se eget punkt under) |
+| «Gullkorn» | [`content/gullkorn.md`](content/gullkorn.md) (se eget punkt under) |
+| Lenker | [`content/lenker.md`](content/lenker.md) (se eget punkt under) |
+| Opphavsrettsnotis | [`content/opphavsrettsnotis.md`](content/opphavsrettsnotis.md) |
+
+Eksempel – å endre hero-teksten på forsiden: åpne `content/home/hero.md` og skriv under riktig overskrift:
+
+```markdown
+## Kicker
+Nestleder · formidler · brukermedvirker
+
+## Tittel
+Et inkluderende og varmere samfunn – for alle.
+
+## Tekst
+Jeg er Sondre Bogen-Straume, ...
+```
+
+### 3.1 Lister med flere felt (bruker `|` som skilletegn)
+
+Noen seksjoner inneholder én oppføring per linje, med felt adskilt av `|`. **Ikke bytt ut `|` med noe annet**, og ikke legg til tomme linjer midt i listen.
+
+- **CV → `## Erfaring`**: `Rolle | Organisasjon | Periode`
+- **CV → `## Utdanning`**: `Skole | Detaljer`
+- **Kurs → `## Kurstilbud`**: `Kicker | Tittel | Beskrivelse`
+- **Om meg → `## Verv`**: én linje per verv (ingen `|`, bare fritekst per linje)
+- **Gullkorn → `## Gullkorn`**: `Sitat-tekst | Dato`
+- **Lenker**: hver `##`-overskrift blir en lenkegruppe, og hver linje under er `Lenketekst | URL`
+
+Eksempel fra `content/lenker.md`:
+
+```markdown
+## Foreninger
+Autismeforeningen i Norge | http://www.autismeforeningen.no
+AD/HD foreningen i Norge | http://www.adhdnorge.no
+
+## Kompetansesentre
+Glenne regionalt senter for autisme | http://www.glennesenter.no
+```
+
+Vil du lage en **helt ny lenkegruppe**, legg bare til en ny `## Gruppenavn`-overskrift med linjer under – den dukker automatisk opp på Lenker-siden.
+
+### 3.2 Bytte nyhetsbrev-skjema (Web3Forms ⇄ HubSpot)
+
+`content/nyhetsbrev.md` støtter en egen `## Skjema`-seksjon som styrer **hvilket** påmeldingsskjema som vises – uten kodeendring:
+
+```markdown
+## Skjema
+type: hubspot
+portal-id: 139809075
+form-id: 37ec6bef-dce5-482d-b5b8-eca9d13e7f43
+region: eu1
+```
+
+- `type: hubspot` viser HubSpot-skjemaet ditt (embeddet som iframe via HubSpots offisielle forms-embed-script).
+- Fjerner du hele `## Skjema`-seksjonen (eller setter `type` til noe annet enn `hubspot`, f.eks. `web3forms`), vises det opprinnelige enkle Web3Forms-skjemaet igjen – helt automatisk.
+- `portal-id`/`form-id`/`region` henter du fra embed-koden HubSpot gir deg under Marketing → Forms → Del/Embed (samme tre verdier som står i `data-portal-id`, `data-form-id` og `data-region` i koden HubSpot viser deg).
+
+**Begrensning:** i dag støtter koden kun disse to skjematypene (Web3Forms og HubSpot). Skal du bytte til en tredje tjeneste (f.eks. Mailchimp eller et rent iframe-embed), må det legges til som en ny type i `index.html` først – si ifra, så utvider vi det på samme måte.
+
+## 4. Blogginnlegg
+
+Alle innlegg ligger som egne filer i [`content/posts/`](content/posts/). Filnavnet blir automatisk innleggets URL/id, så bruk små bokstaver og bindestrek (f.eks. `mitt-nye-innlegg.md`).
+
+### Legge til et nytt innlegg
+
+Opprett en ny fil i `content/posts/`, f.eks. `content/posts/mitt-nye-innlegg.md`:
+
+```markdown
+title: Tittelen på innlegget
+date: 16. juli 2026
+read: 4 min
+tags: Rettigheter, Skole
+excerpt: En kort setning som vises i lista over blogginnlegg.
+---
+Første avsnitt i innlegget.
+
+Andre avsnitt. Du kan skrive helt vanlig brødtekst i egne "blokker" adskilt med tom linje.
+```
+
+- Feltene over den første `---` er **metadata** (frontmatter). Alle er valgfrie, men `title` bør alltid være med.
+- `tags` er kommaseparert og brukes både til filtreringsknappene på blogg-siden og til «relatert»-visning.
+- `date` er fritekst som vises på siden, men brukes også til sortering – skriv den som `dd. måned åååå` (norsk månedsnavn, f.eks. `3. april 2026`) så sorteres innleggene riktig kronologisk.
+- Alt **etter** `---` er selve innlegget. Hvert avsnitt skilles med en **tom linje**.
+
+### Spesielle blokker i brødteksten
+
+Disse prefiksene på starten av en "blokk" (avsnitt) gir spesiell formatering:
+
+| Skriv dette | Blir til |
+|---|---|
+| `## Tekst` | Overskrift nivå 2 (nummereres automatisk 1, 2, 3 …) |
+| `### Tekst` | Overskrift nivå 3 (nummereres 1.1, 1.2 …) |
+| `#### Tekst` | Overskrift nivå 4 (nummereres 1.1.1 …) |
+| `!!! info: Tekst` | Grønn infoboks |
+| `!!! advarsel: Tekst` | Rød/oransje advarselboks |
+| `!!! bla: Tekst` | Blå infoboks (supplerende/tips) |
+| `!!! gull: Tekst` | Gul «gull»-boks (anbefalinger/nøkkelpoeng) |
+| `> Sitatet -- Kilden` | Sitatblokk med kildehenvisning (`--` skiller sitat og kilde) |
+
+Eksempel:
+
+```markdown
+## Hvorfor dette er viktig
+
+Vanlig brødtekst her.
+
+!!! info: Spør alltid den enkelte hvilket ord de selv foretrekker.
+
+> Ingenting om oss uten oss -- Prinsipp innen selvadvokatering
+```
+
+**Begrensning:** kulepunkter, litra (a/b/c), avsnittsnummer og «pull quotes»/uthevede sitater (de du ser demonstrert på [Stilguide-siden](content/stilguide.md)) støttes foreløpig **kun** for innlegg som er hardkodet direkte i `index.html` (i `rawPosts()`), ikke for `.md`-filer i `content/posts/`. Trenger du disse elementene i et innlegg, må det legges inn i koden – si ifra, så kan jeg hjelpe med det.
+
+### Endre eller slette et innlegg
+
+- **Endre:** rediger `.md`-filen direkte.
+- **Slette:** slett `.md`-filen. Den forsvinner fra bloggen ved neste innlasting.
+- **Bilder i innlegg:** støttes ikke i innleggsteksten per nå (kun ren tekst/blokkene over). Portrettbildet på forsiden er hardkodet i `index.html` (se punkt 7).
+
+## 5. Prosjekter
+
+Prosjektsiden er koblet opp til å lese fra `content/projects/`, men **denne mappen finnes ikke i repoet ennå** – helt til den opprettes viser siden de 6 eksempelprosjektene som ligger hardkodet i `index.html` (Ordbøkene.no, Ord og forkortelser, osv.).
+
+For å ta over styringen med egne filer: opprett `content/projects/` og legg inn én `.md`-fil per prosjekt, f.eks. `content/projects/mitt-prosjekt.md`:
+
+```markdown
+title: Prosjektets tittel
+type: Programvare
+date: 14. juli 2026
+blurb: Kort ingress som vises på prosjekt-oversikten.
+url: https://eksempel.no/prosjektet
+img: 2026/07/mitt-bilde.png
+---
+Første avsnitt i den fulle prosjektbeskrivelsen.
+
+Andre avsnitt.
+```
+
+- `img` er banen til bildet **relativt til** `https://sondrestraume.wordpress.com/wp-content/uploads/` (samme WordPress-mediebibliotek som brukes i dag). Skal du bruke bilder fra et annet sted, må koden i `index.html` justeres (se punkt 7).
+- Brødteksten her støtter **ikke** overskrifter/infobokser/sitater slik innlegg gjør – bare rene avsnitt (eventuelle `#`/`>`-tegn blir fjernet automatisk).
+- **Viktig:** Så lenge `content/projects/` ikke finnes, vil oppretting av mappen med *én* fil i seg selv gjøre at *alle* seks eksempelprosjektene forsvinner og erstattes av det du har lagt inn – legg derfor inn alle prosjektene du vil vise, i samme omgang.
+
+## 6. Meny, sosiale lenker og bunntekst
+
+Alt dette styres fra [`content/site.md`](content/site.md), delt i tre seksjoner:
+
+```markdown
+## Meny
+Hjem: Hjem
+Blogg: Blogg
+...
+
+## Sosiale
+LinkedIn: https://www.linkedin.com/in/sondre-bogen-straume/
+...
+
+## Sidefot
+Tagline: Nestleder i Autismeforeningen i Norge
+```
+
+- **`## Meny`**: `Sidenavn: Visningstekst` – lar deg endre *teksten* som vises i menyen (venstre side er en fast nøkkel, ikke rediger den; høyre side er det som vises).
+- **`## Sosiale`**: `Tjeneste: URL` – disse vises både i toppmenyen/kontaktsiden og i bunnteksten. Legg til en ny linje for en ny sosial lenke, eller fjern en linje for å fjerne den.
+- **`## Sidefot`**: `Tagline: teksten under copyright-linjen i footeren`.
+
+## 7. Ting som krever koding i `index.html`
+
+Følgende kan **ikke** gjøres via `content/`-filene, og krever at malen/logikken i `index.html` endres direkte:
+
+- Nye sider/seksjoner i menyen (utover de som finnes i dag)
+- Endre selve strukturen/rekkefølgen på menypunktene
+- Bilder inne i blogginnlegg, eller avanserte blokktyper (kulepunkter, litra, avsnittsnummer, uthevede/pull-sitater) i innlegg hentet fra `content/posts/`
+- Forsidens portrettbilde (URL er hardkodet i `<img src="...">` nær toppen av `index.html`)
+- Web3Forms-nøklene for kontaktskjema (`WEB3_KEY`) og nyhetsbrev (i skjemaets skjulte `access_key`-felt)
+- Zotero-gruppe/-samling for Publikasjoner-siden (`zoteroGroup` / `zoteroCollection` i koden)
+- Design/farger/fonter (styres av `_ds/`-designsystemet, ikke av innholdsfilene)
+
+Trenger du noe av dette, er det bare å be meg om hjelp – da gjør vi endringen sammen i `index.html`.
+
+## 8. Publikasjoner
+
+Publikasjons-siden henter **ikke** fra `content/`, men direkte fra en offentlig **Zotero-gruppe** (`SBS-publikasjoner`, gruppe-id `6615478`, samling `3CG564LB`) hver gang siden lastes. Vil du legge til eller endre en publikasjon, gjør du det i Zotero – ikke i dette repoet. (Fire eksempeloppføringer i koden vises kun som midlertidig fallback dersom Zotero-kallet feiler.)
+
+## 9. Kontaktskjema og nyhetsbrev
+
+Begge skjemaene sender til **Web3Forms** (en ekstern skjematjeneste – ingen egen backend). Innsendinger går til e-posten som er registrert på Web3Forms-kontoen; det er ingenting å vedlikeholde i repoet med mindre nøklene må byttes (se punkt 7).
+
+## 10. Rask oppsummering – "jeg vil …"
+
+- **… endre tekst på en fast side** → finn riktig fil i tabellen i punkt 3, rediger under riktig `##`-overskrift.
+- **… skrive et nytt blogginnlegg** → ny fil i `content/posts/`, se punkt 4.
+- **… legge til/fjerne et prosjekt** → filer i `content/projects/`, se punkt 5.
+- **… endre menytekst, sosiale lenker eller footer-tagline** → `content/site.md`, se punkt 6.
+- **… legge til en lenkegruppe eller lenke** → `content/lenker.md`, se punkt 3.1.
+- **… endre CV** → `content/cv.md`, se punkt 3.1 for `|`-formatet på erfaring/utdanning.
+- **… legge til en publikasjon** → gjøres i Zotero, ikke i repoet.
+- **… endre design/farger/fonter/meny-struktur/bilder i innlegg** → krever kodeendring i `index.html`, se punkt 7.
