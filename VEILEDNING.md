@@ -4,22 +4,22 @@ Denne filen forklarer hvordan nettsiden er satt opp, og hvordan du gjør de vanl
 
 ## 1. Hvordan siden fungerer
 
-- Siden er **statisk** og ligger i GitHub-repoet `sstraume97/hjem`, publisert med **GitHub Pages** direkte fra `main`-branchen (ingen bygge-/CI-steg – `.nojekyll` er der bare for å hindre Jekyll i å prøve å prosessere filene).
-- All layout, styling og programlogikk ligger i [`index.html`](index.html) (malen + en innebygd JS-klasse `Component`) og støttefilen [`support.js`](support.js) (rammeverket som tolker malen – rører du normalt aldri).
-- **Selve teksten** hentes derimot ikke fra `index.html`. Når siden lastes i nettleseren, henter den automatisk innholdet på nytt fra `.md`-filene i [`content/`](content/) via GitHub sitt offentlige API (`api.github.com/repos/sstraume97/hjem/contents/...`).
-  - Det betyr: **du trenger ikke bygge noe.** Du redigerer en `.md`-fil, pusher til `main`, og siden viser det nye innholdet ved neste sideinnlasting (noen ganger må du hard-refreshe / vente et minutt pga. nettleser- eller GitHub-caching).
-  - Hvis en `.md`-fil mangler eller ikke kan hentes (f.eks. du er offline, eller GitHubs API er rate-limitet), faller siden tilbake på hardkodet eksempeltekst inne i `index.html`. Det er normalt og ikke en feil – det er bare en beredskapstekst.
+- Siden er **statisk** og ligger i GitHub-repoet `sstraume97/hjem`, publisert med **GitHub Pages**. Hver side (forsiden, blogginnlegg, CV, osv.) er en egen, ekte HTML-fil med sin egen adresse, f.eks. `sstraume97.github.io/hjem/blogg/` eller `.../blogg/jeg-er-autist-ikke-en-person-med-autisme/`.
+- Disse HTML-filene skriver du **aldri direkte** – de blir generert automatisk av et **bygge-steg** (GitHub Actions, se [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)) hver gang du pusher til `main`. Selve kilden til layout/design/funksjonalitet er [`templates/page.html`](templates/page.html) (samme mal for alle sider – kun innholdet og hvilken visning som er "på" ved sideåpning skiller dem), og selve genereringen skjer i [`scripts/generate-site.mjs`](scripts/generate-site.mjs) (som leser alle filene i [`content/`](content/) og skriver ut én HTML-fil per side/innlegg til en `dist/`-mappe som publiseres).
+- **Arbeidsflyten for deg er uendret:** du redigerer en `.md`-fil i `content/`, pusher til `main`, og GitHub bygger og publiserer automatisk – vanligvis klart i løpet av under et minutt. Du trenger aldri å kjøre noe selv.
+- Mangler en seksjon/fil, brukes en innebygd standardtekst fra `templates/page.html` i stedet – det er normalt og ikke en feil.
 - `_ds/`-mappen er et generert **designsystem** (farger, fonter, komponent-bundle). Den bør du ikke redigere manuelt – den er koblet til designverktøyet nettsiden er bygget med.
 
 ## 2. Publisere en endring
 
 1. Rediger ønsket(e) fil(er) i `content/`.
 2. Commit og push til `main` på GitHub (`git add`, `git commit`, `git push`, eller last opp filen direkte i GitHub sitt nettgrensesnitt).
-3. Vent noen sekunder–minutter og last siden på nytt (evt. med Ctrl+Shift+R for å unngå nettleser-cache).
+3. Sjekk fanen **Actions** i GitHub-repoet – der ser du bygget kjøre (tar normalt under ett minutt). Når det er grønt, er endringen live.
+4. Last siden på nytt (evt. med Ctrl+Shift+R for å unngå nettleser-cache).
 
-Du treffer aldri et "bygg feilet"-scenario siden det ikke er noen build – i verste fall vises gammelt/fallback-innhold til nettleseren har hentet på nytt.
+Skulle et bygg av en eller annen grunn feile (f.eks. en `.md`-fil med ugyldig format), blir **ikke** den gamle, fungerende siden overskrevet – forrige vellykkede publisering blir stående til feilen er rettet og du pusher på nytt. Du finner feilmeldingen i **Actions**-fanen.
 
-> **Obs – API-rate-limit:** Siden bruker GitHubs *uautentiserte* API for å hente filene (60 kall/time per besøkende-IP). Det er sjelden et problem for normal trafikk, men er verdt å vite om dersom innhold plutselig ikke laster for en bruker.
+Blogginnlegg får automatisk sin egen adresse basert på filnavnet i `content/posts/` (se punkt 4). **Prosjekter** får foreløpig ikke egne adresser ennå, se punkt 5.
 
 ## 3. Redigere faste sider (tekst)
 
@@ -32,7 +32,7 @@ Disse filene er delt opp i seksjoner med `## Overskrift` – overskriften er nø
 | Forside – podkast-boks | [`content/home/podcast.md`](content/home/podcast.md) |
 | CV | [`content/cv.md`](content/cv.md) (se eget punkt under) |
 | Kurs | [`content/kurs.md`](content/kurs.md) |
-| Kontakt (intro-tekst) | [`content/kontakt.md`](content/kontakt.md) |
+| Kontakt (intro-tekst) | [`content/kontakt.md`](content/kontakt.md) (se punkt 3.2 for hvordan du bytter selve kontaktskjemaet) |
 | Nyhetsbrev | [`content/nyhetsbrev.md`](content/nyhetsbrev.md) (se punkt 3.2 for hvordan du bytter selve påmeldingsskjemaet) |
 | Stilguide (intro-tekst) | [`content/stilguide.md`](content/stilguide.md) |
 | Fagstoff (biblioteket) | [`content/fagstoff.md`](content/fagstoff.md) |
@@ -82,23 +82,24 @@ Glenne regionalt senter for autisme | http://www.glennesenter.no
 
 Vil du lage en **helt ny lenkegruppe**, legg bare til en ny `## Gruppenavn`-overskrift med linjer under – den dukker automatisk opp på Lenker-siden.
 
-### 3.2 Bytte nyhetsbrev-skjema (Web3Forms ⇄ HubSpot)
+### 3.2 Bytte skjema på Kontakt og Nyhetsbrev (Web3Forms ⇄ HubSpot)
 
-`content/nyhetsbrev.md` støtter en egen `## Skjema`-seksjon som styrer **hvilket** påmeldingsskjema som vises – uten kodeendring:
+Både [`content/nyhetsbrev.md`](content/nyhetsbrev.md) og [`content/kontakt.md`](content/kontakt.md) støtter en egen `## Skjema`-seksjon som styrer **hvilket** skjema som vises – uten kodeendring:
 
 ```markdown
 ## Skjema
 type: hubspot
 portal-id: 139809075
-form-id: 37ec6bef-dce5-482d-b5b8-eca9d13e7f43
+form-id: 0e72c802-50c1-4d2c-9e57-b8b9ff2070a8
 region: eu1
 ```
 
 - `type: hubspot` viser HubSpot-skjemaet ditt (embeddet som iframe via HubSpots offisielle forms-embed-script).
-- Fjerner du hele `## Skjema`-seksjonen (eller setter `type` til noe annet enn `hubspot`, f.eks. `web3forms`), vises det opprinnelige enkle Web3Forms-skjemaet igjen – helt automatisk.
+- Fjerner du hele `## Skjema`-seksjonen (eller setter `type` til noe annet enn `hubspot`, f.eks. `web3forms`), vises det opprinnelige enkle Web3Forms/Web3Forms-skjemaet igjen – helt automatisk. For nyhetsbrev er det det gamle Web3Forms-påmeldingsskjemaet, for kontakt er det det gamle Web3Forms-baserte kontaktskjemaet.
 - `portal-id`/`form-id`/`region` henter du fra embed-koden HubSpot gir deg under Marketing → Forms → Del/Embed (samme tre verdier som står i `data-portal-id`, `data-form-id` og `data-region` i koden HubSpot viser deg).
+- De to filene har **hver sin** `## Skjema`-seksjon – du kan altså bruke HubSpot på den ene siden og Web3Forms på den andre, helt uavhengig av hverandre.
 
-**Begrensning:** i dag støtter koden kun disse to skjematypene (Web3Forms og HubSpot). Skal du bytte til en tredje tjeneste (f.eks. Mailchimp eller et rent iframe-embed), må det legges til som en ny type i `index.html` først – si ifra, så utvider vi det på samme måte.
+**Begrensning:** i dag støtter koden kun disse to skjematypene (Web3Forms og HubSpot), og kun på Kontakt- og Nyhetsbrev-siden. Skal du bytte til en tredje tjeneste, eller ha samme fleksibilitet et annet sted, må det legges til i `templates/page.html` først – si ifra, så utvider vi det på samme måte.
 
 ## 4. Blogginnlegg
 
@@ -152,17 +153,18 @@ Vanlig brødtekst her.
 > Ingenting om oss uten oss -- Prinsipp innen selvadvokatering
 ```
 
-**Begrensning:** kulepunkter, litra (a/b/c), avsnittsnummer og «pull quotes»/uthevede sitater (de du ser demonstrert på [Stilguide-siden](content/stilguide.md)) støttes foreløpig **kun** for innlegg som er hardkodet direkte i `index.html` (i `rawPosts()`), ikke for `.md`-filer i `content/posts/`. Trenger du disse elementene i et innlegg, må det legges inn i koden – si ifra, så kan jeg hjelpe med det.
+**Begrensning:** kulepunkter, litra (a/b/c), avsnittsnummer og «pull quotes»/uthevede sitater (de du ser demonstrert på [Stilguide-siden](content/stilguide.md)) støttes foreløpig **kun** for innlegg som er hardkodet direkte i `templates/page.html` (i `rawPosts()`), ikke for `.md`-filer i `content/posts/`. Trenger du disse elementene i et innlegg, må det legges inn i koden – si ifra, så kan jeg hjelpe med det.
 
 ### Endre eller slette et innlegg
 
 - **Endre:** rediger `.md`-filen direkte.
-- **Slette:** slett `.md`-filen. Den forsvinner fra bloggen ved neste innlasting.
-- **Bilder i innlegg:** støttes ikke i innleggsteksten per nå (kun ren tekst/blokkene over). Portrettbildet på forsiden er hardkodet i `index.html` (se punkt 7).
+- **Slette:** slett `.md`-filen. Den forsvinner fra bloggen (og adressen slutter å eksistere) ved neste bygg.
+- **Bilder i innlegg:** støttes ikke i innleggsteksten per nå (kun ren tekst/blokkene over). Portrettbildet på forsiden er hardkodet i `templates/page.html` (se punkt 7).
+- **Adresse:** hvert innlegg får automatisk sin egen side på `sstraume97.github.io/hjem/blogg/<filnavn>/` – ingenting å konfigurere, det skjer av bygge-scriptet for hver fil i `content/posts/`.
 
 ## 5. Prosjekter
 
-Prosjektsiden er koblet opp til å lese fra `content/projects/`, men **denne mappen finnes ikke i repoet ennå** – helt til den opprettes viser siden de 6 eksempelprosjektene som ligger hardkodet i `index.html` (Ordbøkene.no, Ord og forkortelser, osv.).
+Prosjektlisten er koblet opp til å lese fra `content/projects/`, men **denne mappen finnes ikke i repoet ennå** – helt til den opprettes viser siden de 6 eksempelprosjektene som ligger hardkodet i `templates/page.html` (Ordbøkene.no, Ord og forkortelser, osv.), med detaljvisning inni selve prosjektsiden (ikke egen adresse per prosjekt).
 
 For å ta over styringen med egne filer: opprett `content/projects/` og legg inn én `.md`-fil per prosjekt, f.eks. `content/projects/mitt-prosjekt.md`:
 
@@ -179,9 +181,10 @@ Første avsnitt i den fulle prosjektbeskrivelsen.
 Andre avsnitt.
 ```
 
-- `img` er banen til bildet **relativt til** `https://sondrestraume.wordpress.com/wp-content/uploads/` (samme WordPress-mediebibliotek som brukes i dag). Skal du bruke bilder fra et annet sted, må koden i `index.html` justeres (se punkt 7).
+- `img` er banen til bildet **relativt til** `https://sondrestraume.wordpress.com/wp-content/uploads/` (samme WordPress-mediebibliotek som brukes i dag). Skal du bruke bilder fra et annet sted, må koden justeres (se punkt 7).
 - Brødteksten her støtter **ikke** overskrifter/infobokser/sitater slik innlegg gjør – bare rene avsnitt (eventuelle `#`/`>`-tegn blir fjernet automatisk).
 - **Viktig:** Så lenge `content/projects/` ikke finnes, vil oppretting av mappen med *én* fil i seg selv gjøre at *alle* seks eksempelprosjektene forsvinner og erstattes av det du har lagt inn – legg derfor inn alle prosjektene du vil vise, i samme omgang.
+- **Egne adresser per prosjekt** (tilsvarende blogginnlegg) er ikke satt opp ennå, siden det ikke finnes ekte prosjektfiler å generere fra. Den dagen du oppretter `content/projects/*.md`, er det en liten, lav-risiko utvidelse av `scripts/generate-site.mjs` å legge til – si ifra når du har innhold klart, så gjør vi det da.
 
 ## 6. Meny, sosiale lenker og bunntekst
 
@@ -205,35 +208,45 @@ Tagline: Nestleder i Autismeforeningen i Norge
 - **`## Sosiale`**: `Tjeneste: URL` – disse vises både i toppmenyen/kontaktsiden og i bunnteksten. Legg til en ny linje for en ny sosial lenke, eller fjern en linje for å fjerne den.
 - **`## Sidefot`**: `Tagline: teksten under copyright-linjen i footeren`.
 
-## 7. Ting som krever koding i `index.html`
+## 7. Ting som krever koding i `templates/page.html`
 
-Følgende kan **ikke** gjøres via `content/`-filene, og krever at malen/logikken i `index.html` endres direkte:
+Følgende kan **ikke** gjøres via `content/`-filene, og krever at malen/logikken i `templates/page.html` (og evt. `scripts/generate-site.mjs`) endres direkte:
 
 - Nye sider/seksjoner i menyen (utover de som finnes i dag)
 - Endre selve strukturen/rekkefølgen på menypunktene
 - Bilder inne i blogginnlegg, eller avanserte blokktyper (kulepunkter, litra, avsnittsnummer, uthevede/pull-sitater) i innlegg hentet fra `content/posts/`
-- Forsidens portrettbilde (URL er hardkodet i `<img src="...">` nær toppen av `index.html`)
-- Web3Forms-nøklene for kontaktskjema (`WEB3_KEY`) og nyhetsbrev (i skjemaets skjulte `access_key`-felt)
+- Forsidens portrettbilde (URL er hardkodet i `<img src="...">` nær toppen av `templates/page.html`)
+- Web3Forms-nøklene for kontaktskjema (`WEB3_KEY`) og nyhetsbrev (i skjemaets skjulte `access_key`-felt), og HubSpot-embedscriptet
 - Zotero-gruppe/-samling for Publikasjoner-siden (`zoteroGroup` / `zoteroCollection` i koden)
 - Design/farger/fonter (styres av `_ds/`-designsystemet, ikke av innholdsfilene)
+- Egne adresser per prosjekt (se punkt 5)
 
-Trenger du noe av dette, er det bare å be meg om hjelp – da gjør vi endringen sammen i `index.html`.
+Trenger du noe av dette, er det bare å be meg om hjelp – da gjør vi endringen sammen i `templates/page.html`.
 
 ## 8. Publikasjoner
 
-Publikasjons-siden henter **ikke** fra `content/`, men direkte fra en offentlig **Zotero-gruppe** (`SBS-publikasjoner`, gruppe-id `6615478`, samling `3CG564LB`) hver gang siden lastes. Vil du legge til eller endre en publikasjon, gjør du det i Zotero – ikke i dette repoet. (Fire eksempeloppføringer i koden vises kun som midlertidig fallback dersom Zotero-kallet feiler.)
+Publikasjons-siden henter **ikke** fra `content/` eller bygge-steget, men direkte fra en offentlig **Zotero-gruppe** (`SBS-publikasjoner`, gruppe-id `6615478`, samling `3CG564LB`) hver gang siden lastes i nettleseren – dette er den ene siden som fortsatt henter live, siden publikasjonslisten endrer seg oftere enn et bygg gir mening for. Vil du legge til eller endre en publikasjon, gjør du det i Zotero – ikke i dette repoet. (Fire eksempeloppføringer i koden vises kun som midlertidig fallback dersom Zotero-kallet feiler.)
 
-## 9. Kontaktskjema og nyhetsbrev
+## 9. Kontakt- og nyhetsbrevskjema
 
-Begge skjemaene sender til **Web3Forms** (en ekstern skjematjeneste – ingen egen backend). Innsendinger går til e-posten som er registrert på Web3Forms-kontoen; det er ingenting å vedlikeholde i repoet med mindre nøklene må byttes (se punkt 7).
+Standardskjemaene sender til **Web3Forms** (en ekstern skjematjeneste – ingen egen backend); du kan også bytte til HubSpot per side via `## Skjema`-seksjonen i `content/kontakt.md`/`content/nyhetsbrev.md`, se punkt 3.2. Innsendinger via Web3Forms går til e-posten registrert på Web3Forms-kontoen; det er ingenting å vedlikeholde i repoet med mindre nøklene må byttes (se punkt 7).
 
-## 10. Rask oppsummering – "jeg vil …"
+## 10. Bygg-steget i detalj
+
+- **`scripts/content-parse.mjs`** – de rene funksjonene som tolker markdown-formatet (frontmatter, seksjoner, spesialblokker). Speiler tilsvarende funksjoner i `templates/page.html` og må holdes i sync manuelt om parsing-reglene noen gang endres.
+- **`scripts/generate-site.mjs`** – leser alt i `content/`, bygger én komplett HTML-side per rute (samme mal, ulikt innhold bakt inn), og skriver til en `dist/`-mappe (kun i bygget, ikke committet til git).
+- **`.github/workflows/deploy.yml`** – kjører generatoren og publiserer `dist/` via GitHub Pages ved hver push til `main`.
+- **Vil du teste et bygg lokalt** (f.eks. før du er sikker på en stor endring): kjør `node scripts/generate-site.mjs` fra repo-roten (krever Node.js installert) – det skriver resultatet til `dist/` uten å påvirke den live siden.
+
+## 11. Rask oppsummering – "jeg vil …"
 
 - **… endre tekst på en fast side** → finn riktig fil i tabellen i punkt 3, rediger under riktig `##`-overskrift.
-- **… skrive et nytt blogginnlegg** → ny fil i `content/posts/`, se punkt 4.
+- **… skrive et nytt blogginnlegg (med egen adresse)** → ny fil i `content/posts/`, se punkt 4.
 - **… legge til/fjerne et prosjekt** → filer i `content/projects/`, se punkt 5.
 - **… endre menytekst, sosiale lenker eller footer-tagline** → `content/site.md`, se punkt 6.
 - **… legge til en lenkegruppe eller lenke** → `content/lenker.md`, se punkt 3.1.
 - **… endre CV** → `content/cv.md`, se punkt 3.1 for `|`-formatet på erfaring/utdanning.
+- **… bytte kontakt-/nyhetsbrevskjema mellom Web3Forms og HubSpot** → `## Skjema`-seksjonen i `content/kontakt.md`/`content/nyhetsbrev.md`, se punkt 3.2.
 - **… legge til en publikasjon** → gjøres i Zotero, ikke i repoet.
-- **… endre design/farger/fonter/meny-struktur/bilder i innlegg** → krever kodeendring i `index.html`, se punkt 7.
+- **… endre design/farger/fonter/meny-struktur/bilder i innlegg** → krever kodeendring i `templates/page.html`, se punkt 7.
+- **… se om bygget mitt gikk bra** → fanen **Actions** i GitHub-repoet.

@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./support.js"></script>
+<script src="/hjem/support.js"></script>
 </head>
 <body>
 <x-dc>
 <helmet>
-<link rel="stylesheet" href="_ds/sondre-bogen-straume-designprofil-a8db531f-f3cd-4a77-8880-cacff50c90fc/styles.css">
-<script src="_ds/sondre-bogen-straume-designprofil-a8db531f-f3cd-4a77-8880-cacff50c90fc/_ds_bundle.js"></script>
+<link rel="stylesheet" href="/hjem/_ds/sondre-bogen-straume-designprofil-a8db531f-f3cd-4a77-8880-cacff50c90fc/styles.css">
+<script src="/hjem/_ds/sondre-bogen-straume-designprofil-a8db531f-f3cd-4a77-8880-cacff50c90fc/_ds_bundle.js"></script>
 <style>
 :root{
   --color-accent: var(--color-primary);
@@ -22,7 +22,8 @@
   --shadow-sm:none; --shadow-md:none; --shadow-lg:none;
 }
 *,*::before,*::after{ box-sizing:border-box; }
-body{ margin:0; background:var(--surface-page); color:var(--color-body); font-family:var(--font-body); font-size:16px; line-height:1.5; -webkit-font-smoothing:antialiased; font-variant-numeric:oldstyle-nums; font-feature-settings:'onum' 1; }
+body{ margin:0; background:var(--surface-page); color:var(--color-body); font-family:var(--font-body); font-size:16px; line-height:1.5; -webkit-font-smoothing:antialiased; font-variant-numeric:oldstyle-nums; font-feature-settings:'onum' 1; overflow-wrap:break-word; }
+html{ overflow-x:hidden; }
 h1,h2,h3,h4,h5,h6{ font-family:var(--font-heading); font-weight:700; color:var(--color-heading); line-height:1.35; letter-spacing:0; margin:0 0 var(--space-3); }
 p{ margin:0 0 var(--space-3); }
 a{ color:var(--color-link); text-underline-offset:3px; }
@@ -81,44 +82,71 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
 .projcard:hover { border-color:var(--color-primary); }
 .skip { position:absolute; left:-999px; top:0; background:var(--color-primary); color:#fff; padding:8px 14px; z-index:50; }
 .skip:focus { left:8px; top:8px; }
+
+@media (max-width: 700px){
+  :root{ --space-5:16px; --space-6:16px; --space-7:24px; --space-8:28px; }
+  .nav-brand{ font-size:20px !important; }
+  /* Inline style="..." attributer blir normalisert av nettleseren (mellomrom etter ":" og "," )
+     når rammeverket setter dem via style-objektet – selektorene under må derfor matche det
+     normaliserte formatet, ikke kildeteksten i malen. */
+  [style*="grid-template-columns: repeat(3, 1fr)"],
+  [style*="grid-template-columns: repeat(2, 1fr)"],
+  [style*="grid-template-columns: 1.4fr 1fr"],
+  [style*="grid-template-columns: 1fr 1.3fr"],
+  [style*="grid-template-columns: 160px 1fr"],
+  [style*="grid-template-columns: 64px 1fr"],
+  [style*="grid-template-columns: 1fr 1fr"]{
+    /* minmax(0,1fr) i stedet for bare 1fr: uten den kan et grid-element som inneholder
+       lang, ubrytelig tekst (f.eks. en rå URL i et gammelt innlegg) likevel tvinge
+       kolonnen bredere enn skjermen, siden "1fr" alene har en implisitt min-bredde
+       lik innholdets min-content. */
+    grid-template-columns:minmax(0,1fr) !important;
+  }
+  article[style*="max-width: 90ch"]{ padding:20px 16px 20px 52px !important; }
+  h1[style*="font-size: 56px"]{ font-size:32px !important; }
+  h1[style*="font-size: 46px"]{ font-size:28px !important; }
+  h1[style*="font-size: 44px"]{ font-size:28px !important; }
+  h1[style*="font-size: 40px"]{ font-size:26px !important; }
+  h1[style*="font-size: 38px"]{ font-size:26px !important; }
+}
 </style>
 </helmet>
 <div style="{{ rootStyle }}" data-screen-label="Nettside">
 <a href="#innhold" class="skip">Hopp til innhold</a>
 
 <header class="nav" style="position: sticky; top: 0; z-index: 20; flex-wrap: wrap; padding-left: var(--space-6); padding-right: var(--space-6); background-color: var(--color-neutral-light)">
-  <a href="#" onClick="{{ goHjem }}" class="nav-brand" style="text-decoration:none; color:var(--color-primary); font-size:25px">Sondres Hjørne</a>
+  <a href="/hjem/" class="nav-brand" style="text-decoration:none; color:var(--color-primary); font-size:25px">Sondres Hjørne</a>
   <nav style="display:flex; gap:var(--space-4); flex-wrap:wrap; align-items:center">
-    <a href="#" class="navlink" onClick="{{ goHjem }}" aria-current="{{ curHjem }}" style="font-weight: 400">{{ navLabelHjem }}</a>
-    <a href="#" class="navlink" onClick="{{ goBlogg }}" aria-current="{{ curBlogg }}" style="font-weight: 400">{{ navLabelBlogg }}</a>
-    <a href="#" class="navlink" onClick="{{ goPub }}" aria-current="{{ curPub }}" style="font-weight: 400">{{ navLabelPub }}</a>
+    <a href="/hjem/" class="navlink" aria-current="{{ curHjem }}" style="font-weight: 400">{{ navLabelHjem }}</a>
+    <a href="/hjem/blogg/" class="navlink" aria-current="{{ curBlogg }}" style="font-weight: 400">{{ navLabelBlogg }}</a>
+    <a href="/hjem/publikasjoner/" class="navlink" aria-current="{{ curPub }}" style="font-weight: 400">{{ navLabelPub }}</a>
     <div style="position:relative; display:flex; align-items:center; white-space:nowrap">
-      <a href="#" class="navlink" onClick="{{ goFagstoff }}" aria-current="{{ curFagstoff }}" style="font-weight: 400">Fagstoff</a>
+      <a href="/hjem/fagstoff/" class="navlink" aria-current="{{ curFagstoff }}" style="font-weight: 400">Fagstoff</a>
       <button onClick="{{ toggleFagstoffMenu }}" aria-label="Vis undermeny for Fagstoff" style="background:none; border:0; cursor:pointer; color:var(--color-body); font-size:11px; padding:2px 4px">▾</button>
       <sc-if value="{{ fagstoffMenuOpen }}" hint-placeholder-val="{{ false }}">
         <div style="position:absolute; top:100%; left:0; background:#fff; border:1px solid var(--color-divider); min-width:220px; z-index:25">
-          <a href="#" onClick="{{ goLenker }}" style="display:block; padding:8px 12px; font-size:14px; text-decoration:none; color:var(--color-body)">Lenker</a>
-          <a href="#" onClick="{{ goFsAutisme }}" style="display:block; padding:8px 12px; font-size:14px; text-decoration:none; color:var(--color-body)">Autisme</a>
-          <a href="#" onClick="{{ goFsAsperger }}" style="display:block; padding:8px 12px; font-size:14px; text-decoration:none; color:var(--color-body)">Asperger syndrom</a>
-          <a href="#" onClick="{{ goFsDiagnose }}" style="display:block; padding:8px 12px; font-size:14px; text-decoration:none; color:var(--color-body)">Diagnosekriterier Asperger syndrom</a>
-          <a href="#" onClick="{{ goFsJenter }}" style="display:block; padding:8px 12px; font-size:14px; text-decoration:none; color:var(--color-body)">Autisme hos jenter/kvinner</a>
+          <a href="/hjem/lenker/" style="display:block; padding:8px 12px; font-size:14px; text-decoration:none; color:var(--color-body)">Lenker</a>
+          <a href="/hjem/fagstoff/autisme/" style="display:block; padding:8px 12px; font-size:14px; text-decoration:none; color:var(--color-body)">Autisme</a>
+          <a href="/hjem/fagstoff/asperger/" style="display:block; padding:8px 12px; font-size:14px; text-decoration:none; color:var(--color-body)">Asperger syndrom</a>
+          <a href="/hjem/fagstoff/diagnosekriterier/" style="display:block; padding:8px 12px; font-size:14px; text-decoration:none; color:var(--color-body)">Diagnosekriterier Asperger syndrom</a>
+          <a href="/hjem/fagstoff/jenter/" style="display:block; padding:8px 12px; font-size:14px; text-decoration:none; color:var(--color-body)">Autisme hos jenter/kvinner</a>
         </div>
       </sc-if>
     </div>
-    <a href="#" class="navlink" onClick="{{ goProsj }}" aria-current="{{ curProsj }}" style="font-weight: 400">{{ navLabelProsj }}</a>
-    <a href="#" class="navlink" onClick="{{ goKurs }}" aria-current="{{ curKurs }}" style="font-weight: 400">{{ navLabelKurs }}</a>
+    <a href="/hjem/prosjekter/" class="navlink" aria-current="{{ curProsj }}" style="font-weight: 400">{{ navLabelProsj }}</a>
+    <a href="/hjem/kurs/" class="navlink" aria-current="{{ curKurs }}" style="font-weight: 400">{{ navLabelKurs }}</a>
     <div style="position:relative; display:flex; align-items:center; white-space:nowrap">
-      <a href="#" class="navlink" onClick="{{ goOmMeg }}" aria-current="{{ curOmMeg }}" style="font-weight: 400">Om meg</a>
+      <a href="/hjem/om-meg/" class="navlink" aria-current="{{ curOmMeg }}" style="font-weight: 400">Om meg</a>
       <button onClick="{{ toggleOmMegMenu }}" aria-label="Vis undermeny for Om meg" style="background:none; border:0; cursor:pointer; color:var(--color-body); font-size:11px; padding:2px 4px">▾</button>
       <sc-if value="{{ omMegMenuOpen }}" hint-placeholder-val="{{ false }}">
         <div style="position:absolute; top:100%; left:0; background:#fff; border:1px solid var(--color-divider); min-width:130px; z-index:25">
-          <a href="#" onClick="{{ goGullkorn }}" style="display:block; padding:8px 12px; font-size:14px; text-decoration:none; color:var(--color-body)">«Gullkorn»</a>
+          <a href="/hjem/gullkorn/" style="display:block; padding:8px 12px; font-size:14px; text-decoration:none; color:var(--color-body)">«Gullkorn»</a>
         </div>
       </sc-if>
     </div>
-    <a href="#" class="navlink" onClick="{{ goCv }}" aria-current="{{ curCv }}">{{ navLabelCv }}</a>
-    <a href="#" class="navlink" onClick="{{ goKontakt }}" aria-current="{{ curKontakt }}">{{ navLabelKontakt }}</a>
-    <a href="#" class="btn btn-primary" onClick="{{ goNyhet }}" style="margin-left: var(--space-2); color: var(--color-white)">{{ navLabelNyhet }}</a>
+    <a href="/hjem/cv/" class="navlink" aria-current="{{ curCv }}">{{ navLabelCv }}</a>
+    <a href="/hjem/kontakt/" class="navlink" aria-current="{{ curKontakt }}">{{ navLabelKontakt }}</a>
+    <a href="/hjem/nyhetsbrev/" class="btn btn-primary" style="margin-left: var(--space-2); color: var(--color-white)">{{ navLabelNyhet }}</a>
   </nav>
 </header>
 
@@ -133,9 +161,9 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
       <h1 style="font-size: 56px; margin-bottom: var(--space-5); line-height: 1.15; font-weight: 700; font-style: normal">{{ heroTittel }}</h1>
       <p style="font-size: 17px; max-width: 52ch; text-align: left">{{ heroTekst }}</p>
       <div style="display:flex; gap:var(--space-3); margin-top:var(--space-4); flex-wrap:wrap">
-        <a href="#" class="btn btn-primary" onClick="{{ goBlogg }}">Les bloggen</a>
-        <a href="#" class="btn btn-secondary" onClick="{{ goCv }}">Se CV</a>
-        <a href="#" class="btn btn-secondary" onClick="{{ goProsj }}">Prosjekter →</a>
+        <a href="/hjem/blogg/" class="btn btn-primary">Les bloggen</a>
+        <a href="/hjem/cv/" class="btn btn-secondary">Se CV</a>
+        <a href="/hjem/prosjekter/" class="btn btn-secondary">Prosjekter →</a>
       </div>
     </div>
     <figure class="plate" style="margin:0; max-width:300px; justify-self:end">
@@ -158,11 +186,11 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
 
   <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:var(--space-4)">
     <h2 style="margin:0">Siste fra bloggen</h2>
-    <a href="#" class="btn btn-ghost" onClick="{{ goBlogg }}">Alle innlegg →</a>
+    <a href="/hjem/blogg/" class="btn btn-ghost">Alle innlegg →</a>
   </div>
   <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:var(--space-4)">
-    <sc-for list="{{ posts }}" as="p" hint-placeholder-count="3">
-      <a href="#" class="card" onClick="{{ p.open }}" style="text-decoration:none; color:inherit">
+    <sc-for list="{{ latestPosts }}" as="p" hint-placeholder-count="3">
+      <a href="{{ p.href }}" class="card" style="text-decoration:none; color:inherit">
         <span class="card-kicker">{{ p.date }} · {{ p.read }}</span>
         <span class="card-title">{{ p.title }}</span>
         <p class="card-body" style="display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden">{{ p.excerpt }}</p>
@@ -222,7 +250,7 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
     </sc-if>
     <div style="display:flex; flex-direction:column">
       <sc-for list="{{ posts }}" as="p" hint-placeholder-count="4">
-        <a href="#" onClick="{{ p.open }}" style="text-decoration:none; color:inherit; display:grid; grid-template-columns:160px 1fr; gap:var(--space-6); padding:var(--space-4) 0; border-bottom:1px solid var(--color-divider)">
+        <a href="{{ p.href }}" style="text-decoration:none; color:inherit; display:grid; grid-template-columns:160px 1fr; gap:var(--space-6); padding:var(--space-4) 0; border-bottom:1px solid var(--color-divider)">
           <div class="text-muted" style="font-size:13px; padding-top:4px">{{ p.date }}<br>{{ p.read }}</div>
           <div>
             <h3 style="margin:0 0 var(--space-1)">{{ p.title }}</h3>
@@ -237,7 +265,7 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
 
   <sc-if value="{{ showDetail }}" hint-placeholder-val="{{ false }}">
   <article style="max-width:90ch; margin:0 auto; background:var(--color-white); border:1px solid var(--color-divider); padding:var(--space-8)">
-    <a href="#" class="btn btn-ghost" onClick="{{ backToBlog }}" style="padding-left:0; margin-bottom:var(--space-4)">← Tilbake til bloggen</a>
+    <a href="/hjem/blogg/" class="btn btn-ghost" style="padding-left:0; margin-bottom:var(--space-4)">← Tilbake til bloggen</a>
     <div class="card-kicker">{{ post.date }} · {{ post.read }}</div>
     <h1 style="font-weight:400; font-size:46px; margin:var(--space-2) 0 var(--space-4)">{{ post.title }}</h1>
     <div style="font-size:17px; line-height:1.7; counter-reset:h2c p1c litrac h4c">
@@ -443,7 +471,7 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
 <section class="view" style="max-width:70ch; margin:0 auto">
   <h1 style="font-weight:400">Autisme</h1>
   <p>{{ fsAutismeIntro }}</p>
-  <a href="#" class="btn btn-secondary" onClick="{{ goBlogg }}">{{ fsAutismeKnapp }}</a>
+  <a href="/hjem/blogg/" class="btn btn-secondary">{{ fsAutismeKnapp }}</a>
 </section>
 </sc-if>
 
@@ -452,7 +480,7 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
 <section class="view" style="max-width:70ch; margin:0 auto">
   <h1 style="font-weight:400">Asperger syndrom</h1>
   <p>{{ fsAspergerIntro }}</p>
-  <a href="#" class="btn btn-secondary" onClick="{{ goFsDiagnose }}">Se diagnosekriterier →</a>
+  <a href="/hjem/fagstoff/diagnosekriterier/" class="btn btn-secondary">Se diagnosekriterier →</a>
 </section>
 </sc-if>
 
@@ -514,7 +542,7 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
       <div style="display:flex; gap:10px"><span style="color:var(--color-accent)">–</span><span>{{ v.text }}</span></div>
     </sc-for>
   </div>
-  <a href="#" class="btn btn-secondary" onClick="{{ goCv }}" style="margin-top:var(--space-4)">Se hele CV →</a>
+  <a href="/hjem/cv/" class="btn btn-secondary" style="margin-top:var(--space-4)">Se hele CV →</a>
 </section>
 </sc-if>
 
@@ -589,7 +617,7 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
     <div><h3 style="margin:0">{{ kursCtaTittel }}</h3><p class="text-muted" style="margin:4px 0 0; font-size:14px">{{ kursCtaTekst }}</p></div>
     <div style="display:flex; gap:var(--space-3)">
       <a href="https://www.autismepodden.no/kurs" target="_blank" rel="noopener" class="btn btn-secondary">Se kursoversikt</a>
-      <a href="#" class="btn btn-primary" onClick="{{ goKontakt }}">Kontakt meg</a>
+      <a href="/hjem/kontakt/" class="btn btn-primary">Kontakt meg</a>
     </div>
   </div>
 </section>
@@ -604,6 +632,10 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
     <div style="border:1px solid var(--color-accent); border-radius:var(--radius-md); padding:var(--space-4); margin-top:var(--space-4)"><strong style="font-family:var(--font-heading); font-weight:400">Takk!</strong> Meldingen er registrert. Jeg tar kontakt.</div>
   </sc-if>
   <sc-if value="{{ contactOpen }}" hint-placeholder-val="{{ true }}">
+  <sc-if value="{{ isHubspotKontaktSkjema }}" hint-placeholder-val="{{ false }}">
+    <div class="hs-form-frame" data-region="{{ hubspotKontaktRegion }}" data-form-id="{{ hubspotKontaktFormId }}" data-portal-id="{{ hubspotKontaktPortalId }}" style="margin-top:var(--space-4)"></div>
+  </sc-if>
+  <sc-if value="{{ !isHubspotKontaktSkjema }}" hint-placeholder-val="{{ true }}">
   <form onSubmit="{{ submitContact }}" style="display:flex; flex-direction:column; gap:var(--space-3); margin-top:var(--space-4)">
     <div class="field"><label>Navn</label><input class="input" name="name" required=""></div>
     <div class="field"><label>E-post</label><input class="input" name="email" type="email" required=""></div>
@@ -612,6 +644,7 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
     <sc-if value="{{ contactError }}" hint-placeholder-val="{{ false }}"><p style="color:var(--color-pink-dark); font-size:13px; margin:0">{{ contactError }}</p></sc-if>
     <button type="submit" class="btn btn-primary btn-block" disabled="{{ contactSending }}">{{ contactBtn }}</button>
   </form>
+  </sc-if>
   </sc-if>
   <div role="separator" aria-hidden="true" style="display:flex; align-items:center; gap:8px; margin:var(--space-6) 0"><div style="flex:1; height:1px; background:var(--color-divider)"></div><span style="width:7px; height:7px; border-radius:50%; background:var(--color-yellow-dark); display:inline-block; flex-shrink:0"></span><span style="width:6px; height:6px; border-radius:50%; background:var(--color-accent); display:inline-block; flex-shrink:0"></span><span style="width:7px; height:7px; border-radius:50%; background:var(--color-yellow-dark); display:inline-block; flex-shrink:0"></span><div style="flex:1; height:1px; background:var(--color-divider)"></div></div>
   <h3 style="margin-bottom:var(--space-3)">Sosiale lenker</h3>
@@ -641,7 +674,7 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
     <input type="hidden" name="access_key" value="2cd43b89-20ea-4fb1-b774-2bd546bbcb61">
     <input type="hidden" name="subject" value="Ny nyhetsbrev-påmelding">
     <input type="hidden" name="from_name" value="Nettside – nyhetsbrev">
-    <input type="hidden" name="redirect" value="https://sstraume97.github.io/hjem/#nyhetsbrev-takk">
+    <input type="hidden" name="redirect" value="https://sstraume97.github.io/hjem/nyhetsbrev/takk/">
     <div class="field"><label>Navn</label><input class="input" type="text" name="name" required=""></div>
     <div class="field"><label>E-post</label><input class="input" type="email" name="email" placeholder="din@epost.no" required=""></div>
     <label style="display:flex; align-items:center; gap:8px; font-size:14px"><input type="checkbox" name="Jeg bekrefter påmelding" required=""> Jeg bekrefter påmelding</label>
@@ -660,8 +693,8 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
   <h1 style="font-weight:400; font-size:44px">{{ takkTittel }}</h1>
   <p class="text-muted" style="max-width:44ch; margin:0 auto var(--space-5)">{{ takkTekst }}</p>
   <div style="display:flex; gap:var(--space-3); justify-content:center; flex-wrap:wrap">
-    <a href="#" class="btn btn-primary" onClick="{{ goHjem }}">Til forsiden</a>
-    <a href="#" class="btn btn-secondary" onClick="{{ goBlogg }}">Les bloggen</a>
+    <a href="/hjem/" class="btn btn-primary">Til forsiden</a>
+    <a href="/hjem/blogg/" class="btn btn-secondary">Les bloggen</a>
   </div>
 </section>
 </sc-if>
@@ -758,14 +791,14 @@ a.navlink:hover::after, a.navlink[aria-current='page']::after { right:0; }
         <a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }}</a>
       </sc-for>
       <a href="https://sondrestraume.wordpress.com/feed/" target="_blank" rel="noopener">RSS</a>
-      <a href="#" onClick="{{ goStil }}">Stilguide</a>
-      <a href="#" onClick="{{ goOpphavsrett }}">Opphavsrettsnotis</a>
+      <a href="/hjem/stilguide/">Stilguide</a>
+      <a href="/hjem/opphavsrettsnotis/">Opphavsrettsnotis</a>
     </div>
   </div>
 </footer>
 
 <!-- ══════════ TILGJENGELIGHET ══════════ -->
-<button onClick="{{ toggleA11y }}" aria-label="Tilgjengelighet" class="btn btn-primary" style="position:fixed; right:20px; bottom:20px; z-index:30; width:44px; height:44px; padding:0; display:flex; align-items:center; justify-content:center"><img src="assets/a11y-icon.svg" alt="" style="width:24px; height:24px"></button>
+<button onClick="{{ toggleA11y }}" aria-label="Tilgjengelighet" class="btn btn-primary" style="position:fixed; right:20px; bottom:20px; z-index:30; width:44px; height:44px; padding:0; display:flex; align-items:center; justify-content:center"><img src="/hjem/assets/a11y-icon.svg" alt="" style="width:24px; height:24px"></button>
 <sc-if value="{{ a11yOpen }}" hint-placeholder-val="{{ false }}">
 <div style="position:fixed; right:20px; bottom:72px; z-index:30; width:320px; background:var(--color-surface); border:2px solid var(--color-body); border-radius:var(--radius-lg); box-shadow:var(--shadow-lg); padding:var(--space-5)">
   <div style="font-family:var(--font-heading); font-weight:700; font-size:20px; margin-bottom:var(--space-4)">Tilgjengelighet</div>
@@ -788,14 +821,15 @@ class Component extends DCLogic {
   constructor(props){
     super(props);
     this.SITE = "https://sstraume97.github.io/hjem/";
+    this.BASE = "/hjem/";
     this.IMG = "https://sondrestraume.wordpress.com/wp-content/uploads/";
     this.zoteroGroup = "6615478";
     this.zoteroCollection = "3CG564LB";
     this.WEB3_KEY = "15b06699-0b3f-4956-a266-5295e18a09c6";
     this.state = {
       view: props.startView || "hjem",
-      postId: null,
-      projectId: null,
+      postId: props.startPostId || null,
+      projectId: props.startProjectId || null,
       a11yOpen: false,
       fontScale: 1,
       contrast: false,
@@ -812,11 +846,17 @@ class Component extends DCLogic {
       subscribing: false,
       playing: null,
       pubs: null, // fylles evt. fra Zotero
-      repoPosts: null, repoProjects: null, siteConfig: null,
-      cvMd: null, kursMd: null, kontaktMd: null, nyhetsbrevMd: null, stilguideMd: null,
-      heroMd: null, servicesMd: null, podcastMd: null,
-      fagstoffMd: null, lenkerMd: null, omMegMd: null, gullkornMd: null,
-      fagstoffAutismeMd: null, fagstoffAspergerMd: null, fagstoffDiagnoseMd: null, fagstoffJenterMd: null, opphavsrettMd: null,
+      // Bygges inn av scripts/generate-site.mjs ved push (data-props). Fallback til live
+      // GitHub-henting (loadContentRepo) kun hvis siden åpnes uten å ha vært gjennom byggeskriptet.
+      repoPosts: props.initialPosts || null, repoProjects: props.initialProjects || null, siteConfig: props.initialSiteConfig || null,
+      cvMd: props.initialCvMd || null, kursMd: props.initialKursMd || null, kontaktMd: props.initialKontaktMd || null,
+      nyhetsbrevMd: props.initialNyhetsbrevMd || null, stilguideMd: props.initialStilguideMd || null,
+      heroMd: props.initialHeroMd || null, servicesMd: props.initialServicesMd || null, podcastMd: props.initialPodcastMd || null,
+      fagstoffMd: props.initialFagstoffMd || null, lenkerMd: props.initialLenkerMd || null,
+      omMegMd: props.initialOmMegMd || null, gullkornMd: props.initialGullkornMd || null,
+      fagstoffAutismeMd: props.initialFagstoffAutismeMd || null, fagstoffAspergerMd: props.initialFagstoffAspergerMd || null,
+      fagstoffDiagnoseMd: props.initialFagstoffDiagnoseMd || null, fagstoffJenterMd: props.initialFagstoffJenterMd || null,
+      opphavsrettMd: props.initialOpphavsrettMd || null,
       fagstoffMenuOpen: false, omMegMenuOpen: false
     };
   }
@@ -968,11 +1008,8 @@ class Component extends DCLogic {
   }
 
   componentDidMount(){
-    this.loadContentRepo();
-    if(typeof window!=="undefined" && window.location.hash === "#nyhetsbrev-takk"){
-      this.setState({view:"nyhetsbrev-takk"});
-    }
-    const typeMap = { journalArticle:"Tidsskriftartikkel", book:"Bok", bookSection:"Bokkapittel", report:"Rapport", conferencePaper:"Konferansebidrag", thesis:"Avhandling", webpage:"Nettside", blogPost:"Blogginnlegg", magazineArticle:"Magasinartikkel", newspaperArticle:"Avisartikkel", presentation:"Presentasjon", document:"Dokument", podcast:"Podkast", encyclopediaArticle:"Leksikonartikkel", interview:"Intervju", videoRecording:"Videoopptak", radioBroadcast:"Radiosending", tvBroadcast:"TV-sending", letter:"Brev", manuscript:"Manuskript", forumPost:"Foruminnlegg", audioRecording:"Lydopptak", dictionaryEntry:"Ordbokoppslag", computerProgram:"Programvare", hearing:"Høring", statute:"Lov", bill:"Lovforslag", case:"Rettsavgjørelse" };
+    if(!this.props.initialPosts) this.loadContentRepo();
+    const typeMap ={ journalArticle:"Tidsskriftartikkel", book:"Bok", bookSection:"Bokkapittel", report:"Rapport", conferencePaper:"Konferansebidrag", thesis:"Avhandling", webpage:"Nettside", blogPost:"Blogginnlegg", magazineArticle:"Magasinartikkel", newspaperArticle:"Avisartikkel", presentation:"Presentasjon", document:"Dokument", podcast:"Podkast", encyclopediaArticle:"Leksikonartikkel", interview:"Intervju", videoRecording:"Videoopptak", radioBroadcast:"Radiosending", tvBroadcast:"TV-sending", letter:"Brev", manuscript:"Manuskript", forumPost:"Foruminnlegg", audioRecording:"Lydopptak", dictionaryEntry:"Ordbokoppslag", computerProgram:"Programvare", hearing:"Høring", statute:"Lov", bill:"Lovforslag", case:"Rettsavgjørelse" };
     fetch(`https://api.zotero.org/groups/${this.zoteroGroup}/collections/${this.zoteroCollection}/items/top?format=json&include=data&sort=date&direction=desc&limit=100`)
       .then(r=>r.ok?r.json():null)
       .then(rows=>{
@@ -993,9 +1030,7 @@ class Component extends DCLogic {
       .catch(()=>{});
   }
 
-  go(view){ this.setState({view, postId:null, projectId:null, fagstoffMenuOpen:false, omMegMenuOpen:false}); if(typeof window!=="undefined") window.scrollTo(0,0); }
   cur(v){ return this.state.view===v ? "page" : null; }
-  openPost(id){ this.setState({postId:id}); window.scrollTo(0,0); }
   openProject(id){ this.setState({projectId:id}); window.scrollTo(0,0); }
   filterTag(t){ this.setState({view:"blogg", postId:null, tag: this.state.tag===t?null:t, blogQuery:""}); window.scrollTo(0,0); }
 
@@ -1105,7 +1140,7 @@ class Component extends DCLogic {
     const s = this.state;
     const pick = (obj, key, fallback) => (obj && obj[key]!==undefined && obj[key]!=="") ? obj[key] : fallback;
     const pickLines = (obj, key) => { const raw = obj && obj[key]; return raw ? raw.split("\n").map(l=>l.trim()).filter(Boolean) : null; };
-    const posts = this.getPosts().map(p=>({ ...p, tagText: p.tags.join(" · "), open: ()=>this.openPost(p.id) }));
+    const posts = this.getPosts().map(p=>({ ...p, tagText: p.tags.join(" · "), href: this.BASE+"blogg/"+p.id+"/" }));
     const q = s.blogQuery.trim().toLowerCase();
     let filtered = posts;
     if(s.tag) filtered = filtered.filter(p=>p.tags.includes(s.tag));
@@ -1113,6 +1148,7 @@ class Component extends DCLogic {
     const allTags = [...new Set(this.getPosts().flatMap(p=>p.tags))].map(t=>({
       name:t, active: s.tag===t?"true":null, onClick: ()=>this.filterTag(t)
     }));
+    const latestPosts = posts.slice(0,6);
     const current = posts.find(p=>p.id===s.postId) || null;
     const currentBody = current ? current.body.map((t,i)=>{
       if (typeof t === "string") return {key:i, isP:true, text:t};
@@ -1133,7 +1169,7 @@ class Component extends DCLogic {
       if (t.bullet) { const r={key:i, text:t.bullet.text}; r["isBullet"+(t.bullet.level||1)]=true; return r; }
       return {key:i, isP:true, text:""};
     }) : [];
-    const shareBase = encodeURIComponent(this.SITE + "#" + (current?current.id:""));
+    const shareBase = encodeURIComponent(this.SITE + "blogg/" + (current?current.id:"") + "/");
     const shareTitle = current ? encodeURIComponent(current.title) : "";
 
     const projects = this.getProjects().map(p=>({ ...p, imgUrl:this.IMG+p.img, bg:`url('${this.IMG+p.img}')`, open:()=>this.openProject(p.id) }));
@@ -1224,13 +1260,24 @@ class Component extends DCLogic {
     };
 
     // ---- Kontakt / Nyhetsbrev / Stilguide content ----
-    const kontaktVals = { kontaktIntro: pick(s.kontaktMd,"Intro","Send meg en melding, så svarer jeg så snart jeg kan.") };
-    const skjemaRaw = s.nyhetsbrevMd && s.nyhetsbrevMd["Skjema"];
-    const skjemaCfg = {};
-    (skjemaRaw||"").split("\n").map(l=>l.trim()).filter(Boolean).forEach(l=>{
-      const idx = l.indexOf(":");
-      if(idx>-1) skjemaCfg[l.slice(0,idx).trim().toLowerCase()] = l.slice(idx+1).trim();
-    });
+    const parseSkjemaCfg = raw => {
+      const cfg = {};
+      (raw||"").split("\n").map(l=>l.trim()).filter(Boolean).forEach(l=>{
+        const idx = l.indexOf(":");
+        if(idx>-1) cfg[l.slice(0,idx).trim().toLowerCase()] = l.slice(idx+1).trim();
+      });
+      return cfg;
+    };
+    const kontaktSkjemaCfg = parseSkjemaCfg(s.kontaktMd && s.kontaktMd["Skjema"]);
+    const isHubspotKontaktSkjema = (kontaktSkjemaCfg["type"]||"").toLowerCase()==="hubspot";
+    const kontaktVals = {
+      kontaktIntro: pick(s.kontaktMd,"Intro","Send meg en melding, så svarer jeg så snart jeg kan."),
+      isHubspotKontaktSkjema,
+      hubspotKontaktPortalId: kontaktSkjemaCfg["portal-id"] || "139809075",
+      hubspotKontaktFormId: kontaktSkjemaCfg["form-id"] || "",
+      hubspotKontaktRegion: kontaktSkjemaCfg["region"] || "eu1"
+    };
+    const skjemaCfg = parseSkjemaCfg(s.nyhetsbrevMd && s.nyhetsbrevMd["Skjema"]);
     const isHubspotSkjema = (skjemaCfg["type"]||"").toLowerCase()==="hubspot";
     const nyhetsbrevVals = {
       nyhetKicker: pick(s.nyhetsbrevMd,"Kicker","Hold deg oppdatert"),
@@ -1359,14 +1406,6 @@ class Component extends DCLogic {
 
     return {
       // routing
-      goHjem:()=>this.go("hjem"), goBlogg:()=>this.go("blogg"), goPub:()=>this.go("publikasjoner"),
-      goProsj:()=>this.go("prosjekter"), goCv:()=>this.go("cv"), goKurs:()=>this.go("kurs"),
-      goKontakt:()=>this.go("kontakt"), goNyhet:()=>this.go("nyhetsbrev"), goStil:()=>this.go("stilguide"),
-      goFagstoff:()=>this.go("fagstoff"), goLenker:()=>this.go("lenker"),
-      goOmMeg:()=>this.go("om-meg"), goGullkorn:()=>this.go("gullkorn"),
-      goFsAutisme:()=>this.go("fs-autisme"), goFsAsperger:()=>this.go("fs-asperger"),
-      goFsDiagnose:()=>this.go("fs-diagnose"), goFsJenter:()=>this.go("fs-jenter"),
-      goOpphavsrett:()=>this.go("opphavsrett"),
       toggleFagstoffMenu:()=>this.setState({fagstoffMenuOpen:!s.fagstoffMenuOpen, omMegMenuOpen:false}),
       toggleOmMegMenu:()=>this.setState({omMegMenuOpen:!s.omMegMenuOpen, fagstoffMenuOpen:false}),
       fagstoffMenuOpen: s.fagstoffMenuOpen, omMegMenuOpen: s.omMegMenuOpen,
@@ -1387,16 +1426,15 @@ class Component extends DCLogic {
       ...fagstoffAutismeVals, ...fagstoffAspergerVals, ...fagstoffDiagnoseVals, ...fagstoffJenterVals, ...opphavsrettVals,
       preventDefault:e=>e.preventDefault(),
       // blog
-      posts:filtered, allTags, showTags: this.props.showBlogTags!==false,
+      posts:filtered, latestPosts, allTags, showTags: this.props.showBlogTags!==false,
       showList: !current, showDetail: !!current, post: current, postBody: currentBody,
       noResults: filtered.length===0,
       blogQuery:s.blogQuery, onBlogSearch:e=>this.setState({blogQuery:e.target.value}),
       activeTagName: s.tag, clearTag:()=>this.setState({tag:null}),
-      backToBlog:()=>this.setState({postId:null}),
       shareFb: current?`https://www.facebook.com/sharer/sharer.php?u=${shareBase}`:"#",
       shareX: current?`https://twitter.com/intent/tweet?url=${shareBase}&text=${shareTitle}`:"#",
       shareMail: current?`mailto:?subject=${shareTitle}&body=${shareBase}`:"#",
-      copyLink: ()=>{ try{ navigator.clipboard.writeText(this.SITE+"#"+(current?current.id:"")); }catch(e){} },
+      copyLink: ()=>{ try{ navigator.clipboard.writeText(this.SITE+"blogg/"+(current?current.id:"")+"/"); }catch(e){} },
       // projects
       projects, showProjList: !currentProject, showProjDetail: !!currentProject,
       currentProject, currentProjectBody, backToProjects:()=>this.setState({projectId:null}),
