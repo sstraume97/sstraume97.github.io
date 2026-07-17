@@ -1,0 +1,52 @@
+---
+title: "Empati - hva er det?"
+date: 2018-04-05
+description: "Har en med Asperger syndrom mindre empati og følelser en andre? Jeg vil svare nei på dette. Det er fordi jeg som har Asperger har…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+## Forskjellig oppfatning av empati!
+
+```{=html}
+<p>Har en med Asperger syndrom mindre empati og følelser en andre? Jeg vil svare nei på dette. Det er fordi jeg som har Asperger har empati, men den måten jeg viser det på er ikke den samme som nevrotypikere gjør. En annen ting er at vi Aspergere på en måte både føler mer og mindre om alt en nevrotypikere gjør.</p>
+```
+
+```{=html}
+<p>Med dette mener jeg at vi føler så mye mer en andre, altså at vi har sterkere følelser en andre. Noe som resulterer i at vi må beskytte oss selv mot disse følelsene ved å blokere de når vi greier. Men det gjelder ikke alltid.</p>
+```
+
+```{=html}
+<p>Men når vi prøver å vise empati kan det ofte bli oppfattet på en annen måte en vi mener. For når noen viser medfølelse er det vanelig at hele dets kroppsspråk viser det, men for meg kan det ofte være stort missforhold mellom hvordan min stemme høres ut (stemmeleie og intensitet), ansiktsuttrykk og mimikk og hva jeg sier og føler.</p>
+```
+
+```{=html}
+<p>Det eneste jeg her kan si er at om jeg sier at jeg føler med deg, eller prøver å trøste er det viktig å ikke bry seg om hvordan ansiktet mitt ser ut og stemmen lyder.</p>
+```
+
+```{=html}
+<p>Det er de ordene som kommer ut av munnen min som betyr noe, ikke hvordan de blir presentert, for det har jeg dessverre ingen aning om hvordan jeg gjør.</p>
+```
+
+```{=html}
+<p>Ofte kan jeg blimoppfattet som sinna når jeg bare er engasjert. Og oppfattes som trist da jeg ikke bruker ansikts-mimikk alt for mye.</p>
+```
+
+```{=html}
+<p>Men på tross av det har jeg mye empati for andre mennesker, det bare er vanskelig å formidle det på et språk dere forstår.</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fempati-hva-er-det%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Empati%20-%20hva%20er%20det%3F&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fempati-hva-er-det%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Empati%20-%20hva%20er%20det%3F&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fempati-hva-er-det%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/empati-hva-er-det/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

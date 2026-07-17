@@ -1,0 +1,11 @@
+---
+title: "Fagstoff: Autisme"
+page-layout: article
+toc: false
+---
+
+<div class="pre-line">
+Autisme er en gjennomgripende nevrologisk utviklingsforskjell som påvirker hvordan man sanser, kommuniserer og samhandler med omverdenen. Under finner du noen av mine egne tekster om temaet.
+</div>
+
+[Se innlegg merket «Autisme» →](../../blogg/index.qmd#category=Autisme){.btn .btn-secondary}

@@ -1,0 +1,67 @@
+---
+title: "Publikasjoner"
+page-layout: article
+toc: false
+---
+
+Publikasjoner og bokanmeldelser, hentet fra min offentlige [Zotero-samling «SBS-publikasjoner»](https://www.zotero.org/groups/6615478/sbs-publikasjoner/collections/3CG564LB){target="_blank" rel="noopener"}.
+
+[Åpne i Zotero →](https://www.zotero.org/groups/6615478/sbs-publikasjoner/collections/3CG564LB){.btn .btn-ghost target="_blank" rel="noopener"}
+
+<p id="pub-note" class="text-muted" style="font-size:13px">Laster fra Zotero … (eksempeloppføringer vises inntil samlingen er lastet).</p>
+
+```{=html}
+<div id="pub-list" style="display:flex; flex-direction:column; gap:var(--space-4)">
+  <div class="post-card">
+    <span class="card-kicker">Rapport · 2025 · Autismeforeningen i Norge</span>
+    <span class="card-title">Brukermedvirkning på systemnivå i spesialisthelsetjenesten</span>
+    <p class="card-body" style="-webkit-line-clamp:unset">Bogen-Straume, S. — En gjennomgang av hvordan erfaringskompetanse kan integreres på system- og strategisk nivå i spesialisthelsetjenesten, med utgangspunkt i brukerutvalgenes rolle.</p>
+  </div>
+  <div class="post-card">
+    <span class="card-kicker">Fagartikkel · 2024 · Autisme i dag</span>
+    <span class="card-title">Erfaringskompetanse i utvikling av styringsdokumenter</span>
+    <p class="card-body" style="-webkit-line-clamp:unset">Bogen-Straume, S. — Om hvordan brukerrepresentanter kan bidra aktivt i revisjon av mandater, vedtekter og fagplaner.</p>
+  </div>
+  <div class="post-card">
+    <span class="card-kicker">Konferansebidrag · 2023 · Helse Sør-Øst RHF</span>
+    <span class="card-title">Autistens stemme i pasient- og pårørendeopplæring</span>
+    <p class="card-body" style="-webkit-line-clamp:unset">Bogen-Straume, S. — Erfaringer fra arbeidet med digital pasient- og pårørendeopplæring, sett fra et autistisk brukerperspektiv.</p>
+  </div>
+  <div class="post-card">
+    <span class="card-kicker">Notat · 2022 · Råd for personer med funksjonsnedsettelse</span>
+    <span class="card-title">Sensorisk tilrettelegging i offentlige rom</span>
+    <p class="card-body" style="-webkit-line-clamp:unset">Bogen-Straume, S. — Konkrete anbefalinger for universell utforming med vekt på lyd, lys og forutsigbarhet.</p>
+  </div>
+</div>
+<script>
+(function () {
+  var group = "6615478", collection = "3CG564LB";
+  var list = document.getElementById("pub-list");
+  var note = document.getElementById("pub-note");
+  fetch("https://api.zotero.org/groups/" + group + "/collections/" + collection + "/items/top?format=json&include=data&sort=date&direction=desc&limit=100")
+    .then(function (r) { return r.json(); })
+    .then(function (items) {
+      if (!Array.isArray(items) || !items.length) return;
+      list.innerHTML = items.map(function (it) {
+        var d = it.data || {};
+        var year = (d.date || "").match(/\d{4}/);
+        var creators = (d.creators || []).map(function (c) {
+          return c.lastName ? (c.lastName + (c.firstName ? ", " + c.firstName[0] + "." : "")) : (c.name || "");
+        }).join("; ");
+        var title = d.title || "";
+        var venue = d.publicationTitle || d.institution || d.publisher || "";
+        var kicker = [d.itemType || "", year ? year[0] : "", venue].filter(Boolean).join(" · ");
+        var titleHtml = d.url ? '<a href="' + d.url + '" target="_blank" rel="noopener">' + title + "</a>" : title;
+        return '<div class="post-card">' +
+          '<span class="card-kicker">' + kicker + '</span>' +
+          '<span class="card-title">' + titleHtml + '</span>' +
+          '<p class="card-body" style="-webkit-line-clamp:unset">' + (creators ? creators + " — " : "") + (d.abstractNote || "") + '</p></div>';
+      }).join("");
+      note.textContent = "Hentet fra Zotero-samlingen SBS-publikasjoner.";
+    })
+    .catch(function () {
+      note.textContent = "Kunne ikke hente fra Zotero – viser eksempeloppføringer.";
+    });
+})();
+</script>
+```

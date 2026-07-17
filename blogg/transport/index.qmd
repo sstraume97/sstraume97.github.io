@@ -1,0 +1,51 @@
+---
+title: "Det mentale fengsel!"
+date: 2017-12-01
+categories: ["Angst", "Nevrologiske grunner", "Psykisk sykdom"]
+description: "Hvorfor er det forventet at funksjonshemmede ikke trenger den samme mellommenneskelige kontakten som alle andre? Jeg tenker da…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+## Har ikke mennesker med funksjonshemning de samme behovene for å kunne reise som alle andre?
+
+### Det virker som at samfunnet egentlig mener mennesker med funksjonshemming ikke har de samme behovene for deltagelse som funksjonsfriske!
+
+```{=html}
+<p>Hvorfor er det forventet at funksjonshemmede ikke trenger den samme mellommenneskelige kontakten som alle andre? Jeg tenker da spesielt på de med usynlige handikap, alle de som ikke er bevegelseshemmet, alle de som ikke bruker rullestol?</p>
+```
+
+```{=html}
+<p>Det virker som at de ferreste egentlig forstår hvordan det er å leve i fengsel, det å ved fødsel være dømt til livsvarig fengsel. For det er faktisk akkurat sånn det er, det er et usynlig fengsel som ikke er mulig å komme ut av.</p>
+```
+
+```{=html}
+<p>Jeg har sakt det før og sier det igjen, jeg ville gjerne byttet mine problemer med livstid i rullestol. Hadde jeg kunnet slippe å være fengslet i mitt eget hode, fengslet på isolat da hadde jeg gladelig litt lam fra halsen og ned.</p>
+```
+
+```{=html}
+<p>Det er klart at min mulight til å kunne gå på egne ben faktisk gir muligheter til å dra steder der rullestol ikke kan, men det er en liten trøst når man ikke på grunn av problemene man opplever ved å ta kollektivtransport ikke greier å ta buss ol.</p>
+```
+
+```{=html}
+<p>Jeg klarer med nød og neppe å ta tog, men det kan ikke være et fult tog for da får jeg til slutt panikkanfall og blir helt utmattet. Jeg skulle ønske at samfunnet og menneskene som lever i det kunne ta hensyn og faktisk innse at det finnes mennesker som ikke sitter i rullestol men som kunne trengt en psykisk rullestol.</p>
+```
+
+```{=html}
+<p>Hva er mine alternativer? Det har jeg lurt på lenge, jeg må si det ikke finnes noen lett måte å løse dette på. Det begynner å komme til det pungtet der det å investere i rullestolliknende hjelpemiddel frister.</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Ftransport%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Det%20mentale%20fengsel!&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Ftransport%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Det%20mentale%20fengsel!&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Ftransport%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/transport/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

@@ -1,0 +1,52 @@
+---
+title: "Slitsomt å være din venn"
+date: 2018-01-28
+description: "Det kan nok høres veldig rart ut for dere nevrotypiske, men jeg må bruke alle mine kognitive krefter for å klare å analysere alle…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+## Det krever all min kognitive kapasitet å være din venn!
+
+```{=html}
+<p>Det kan nok høres veldig rart ut for dere nevrotypiske, men jeg må bruke alle mine kognitive krefter for å klare å analysere alle mellommenneskelige, sosiale signaler og å forstå dere.</p>
+```
+
+```{=html}
+<p>Jeg kan ikke bruke min intuisjon for å forstå hva dere mener og hva dere mener og føler. Dessverre må jeg benytte meg av den kognitive kapasiteten min for å analysere meg frem til hva folk faktisk mener eller føler. Omtrent 70% av all kommunikasjon er basert på kroppsspråk, metaforer og billedlig kommunikasjon. Dette er kommunikasjon jeg ikke intuitivt forstår, men må analysere meg frem til dette med den tilgjengelige kognitive kapasiteten jeg har.</p>
+```
+
+```{=html}
+<p>Dette er ikke en god måte å forstå andre mennesker på da jeg er avhengig av å klare å tenke og fokusere 100%, noe som igjen er avhengig av at det er rolig rundt meg, er kjente omgivelser og kjente mennesker der.</p>
+```
+
+```{=html}
+<p>Til tider har jeg store problemer med å forstå hva folk sier til meg på norsk om jeg er sliten og det er bakgrunnsstøy.</p>
+```
+
+```{=html}
+<p>Kroppsspråk er en vanskelig ting å forstå for det er ingen som har likt kroppsspråk. De vennene jeg i dag har er helt fantastiske, de sier det de mener uansett hvor brutal ærligheten er og vi kan si hva som helst til hverandre uten at det blir noe sure miner. Om vi ikke forstår hverandre, eller er usikre på om den andre faktisk mente det hen sa, spør vi!</p>
+```
+
+```{=html}
+<p>For å kunne snakke med meg må man alltid tolke det jeg gjør og sier i beste mening, for jeg prøver ikke såre andre mennesker, når jeg sier noe er det alltis for å være grei! Og om jeg skulle være sur for noe merker du det... det et ikke sånn at man trenger lure på hva mente Sondre nå?</p>
+```
+
+```{=html}
+<p>Spør om dere ikke forstår meg, og vær tolmodige når vi snakker for jeg misforstår ting jeg også. Bare svar når jeg spør hva du mener!</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fslitsomt-a-vaere-din-venn%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Slitsomt%20%C3%A5%20v%C3%A6re%20din%20venn&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fslitsomt-a-vaere-din-venn%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Slitsomt%20%C3%A5%20v%C3%A6re%20din%20venn&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fslitsomt-a-vaere-din-venn%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/slitsomt-a-vaere-din-venn/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

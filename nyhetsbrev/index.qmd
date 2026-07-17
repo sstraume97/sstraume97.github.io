@@ -1,0 +1,34 @@
+---
+title: "Nyhetsbrev"
+page-layout: article
+toc: false
+---
+
+<div class="kicker">Hold deg oppdatert</div>
+
+Få nye blogginnlegg, podkastepisoder og kursnyheter rett i innboksen. Ingen spam.
+
+```{=html}
+<!--
+  Aktivt skjema: HubSpot (matcher det som er live i dag). For å bytte til Web3Forms i stedet:
+  kommenter ut HubSpot-blokken under (script + hs-form-frame-div) og fjern kommentartegnene
+  rundt Web3Forms-skjemaet lenger ned.
+-->
+<div class="hs-form-frame" data-region="eu1" data-form-id="37ec6bef-dce5-482d-b5b8-eca9d13e7f43" data-portal-id="139809075" style="max-width:440px; margin:0 auto; text-align:left"></div>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  if (window.hbspt) {
+    hbspt.forms.create({ region: "eu1", portalId: "139809075", formId: "37ec6bef-dce5-482d-b5b8-eca9d13e7f43", target: ".hs-form-frame" });
+  }
+</script>
+
+<!--
+<form action="https://api.web3forms.com/submit" method="POST" style="display:flex; flex-direction:column; gap:var(--space-3); max-width:440px; margin:0 auto; text-align:left">
+  <input type="hidden" name="access_key" value="15b06699-0b3f-4956-a266-5295e18a09c6">
+  <input type="hidden" name="subject" value="Ny påmelding til nyhetsbrevet">
+  <input type="hidden" name="redirect" value="https://sstraume97.github.io/hjem/nyhetsbrev/takk/">
+  <label>E-post<br><input class="input" type="email" name="email" required style="width:100%"></label>
+  <button type="submit" class="btn btn-primary">Meld meg på</button>
+</form>
+-->
+```

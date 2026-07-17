@@ -1,0 +1,135 @@
+---
+title: "En tapt barndom..."
+date: 2018-06-04
+categories: ["Angst", "mobbing", "Psykisk sykdom", "skole"]
+description: "Hvordan skal en barndom være? Skal barn få leke sammen med andre barn, eller tvangsisoleres fra andre barn? Svaret her er nok…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>Hvordan skal en barndom være? Skal barn få leke sammen med andre barn, eller tvangsisoleres fra andre barn? Svaret her er nok entydig at barn skal få være barn og leke med andre barn, i det minste få lov å leke for seg selv.</p>
+```
+
+```{=html}
+<p>Men det å være barn sluttet jeg med i 1. klasse på barneskolen. Helt fra første dag i 1. klasse til siste dag i 7. klasse på Krokemoa skole ble jeg mobbet. Nå stopper ikke mobbingen i 7. klasse, men den endret seg fra å både skje på skolen og fritiden, til å kun skje på fritiden.</p>
+```
+
+```{=html}
+<p>Venner var derfor ikke noe tema, eller jo jeg hadde venner og det er jeg glad for, men jeg er sikker på at jeg ikke er den eneste gutten på mellom 6 og 18 år som ønsket seg en venn på sin egen alder. Men det hadde jeg ikke, heldig vis hadde jeg to gode naboer, Odd Bjurvold og Kjell Holtedahl. Odd var noen å 70 på denne tiden og jeg var utrolig heldig som fikk ha mange flotte stunder med han frem til han døde 85 år gammel i 2016.</p>
+```
+
+```{=html}
+<p>Hvorfor fikk jeg aldri være et barn, hvorfor fikk ikke jeg lov til å være det av de andre barna, hvorfor er det meg som blir straffet ved å isoleres på et grupperom meste parten av dagen? Det ergrer meg fremdeles at jeg som var den part som ble mobbet måtte fjernes fra alle arenaer...</p>
+```
+
+```{=html}
+<p>Det er et gjennomgående trekk i skolesystemet, en sykdom som har rammet skolene hardt. For det er jo enklest å fjerne den ene eleven som blir mobbet og dermed utagerer når man ikke lenger orker å bli slengt dritt til, kastet ting på, sparket eller spyttet på.</p>
+```
+
+```{=html}
+<p>Er det rart at jeg som mamma den dag i dag sier at har vært en rolig og snill gutt ut-agerer når man minutt etter minutt, time etter time, dag etter dag, måned etter måned og år etter år blir mobbet (bemerkning: vi har bevis fra innleggelse på Familieavdelingen på Tønsberg Sykehus at med god tilrettelegging fungerer jeg bra).</p>
+```
+
+```{=html}
+<p>Det er for meg ganske sårt å tenke på hvordan dette her ødelagt for meg. På helt fundamentale områder mangler jeg kunnskap utdanningen skulle gitt meg. Eksempelvis har jeg ikke karakter i Norsk og Engelsk fra videregående... men har 4 i kristendom, 4 i matte, 5 i naturfag, 4 i samfunnsfag osv.</p>
+```
+
+```{=html}
+<p>På ungdomsskolen fikk jeg ikke lov av kommunen å ha karakterer for jeg kom aldri til å kunne klare å prestere godt nok. Jeg ville helst ha karakterer, og klasseroms-undervisning, men det var to-tre andre elever (gutter) som var litt vel høylytte og derfor fikk jeg ikke være i klassen men hadde 100% av timene en-en...</p>
+```
+
+```{=html}
+<p>En-en er den mest grusomme undervisnings formen av alle. Det er ekstremt mentalt krevende å fra 1. til siste time hver dag sitte og jobbe med den samme personen. Jeg hadde riktignok norsk en person og engelsk med en annen, men resten var vel stort sett med en og samme person...</p>
+```
+
+```{=html}
+<p>I den siste tiden har det vært flere andre en meg som har kommet ut med sin historie, ei av disse er «Anne» som NRK skriver om her: «Anne» bytter skole for fjerde gang, mens mobberen får bli (https://www.nrk.no/norge/_anne_-bytter-skole-for-fjerde-gang_-mens-mobberen-far-bli-1.14044588).</p>
+```
+
+```{=html}
+<p>Men også i Vestfold finnes det historier som må komme ut, et eksempel på dette er: Etter mange år med prøving og feiling håper Aleksander Romstad og moren å sette søkelys på barn med utfordringer i skolen for å hjelpe andre i samme situasjon. (https://www.tb.no/skole/ungdom/utdanning/aleksander-slet-pa-skolen-jeg-ble-frarovet-all-kontakt-med-jevnaldrende/s/5-76-753089?access=granted)</p>
+```
+
+```{=html}
+<p>Her er en modig ung mann fra Tønsberg på 24 år som forteller sin historie: Jeg har blitt mobbet hele livet, fra jeg gikk i barnehagen til slutten av videregående (https://www.tb.no/ungdom/rus/helsepolitikk/jeg-har-blitt-mobbet-hele-livet-fra-jeg-gikk-i-barnehagen-til-slutten-av-videregaende/s/5-76-673697?access=granted)</p>
+```
+
+```{=html}
+<p>Eller som i Mia's tilfelle, hvor det endte opp med selvmord: Til skolen med klump i magen - Hvorfor klarte ingen å hjelpe Mia? (https://www.nrk.no/dokumentar/xl/til-skolen-med-klump-i-magen-1.13687384)</p>
+```
+
+```{=html}
+<p>Og attpå til presterer regjeringen å svekke barnas rettigheter om de blir mobbet: Endringer i «mobbeloven» svekker barns rettigheter (https://www.nrk.no/troms/_-endringer-i-_mobbeloven_-svekker-barns-rettigheter-1.13622580)</p>
+```
+
+```{=html}
+<p>Selv har jeg blitt intervjuet av Tønsberg Blad om dette temaet: For meg hadde det vært bedre å gå på spesialskole (https://www.tb.no/nyheter/ung-voksen/ungdom/sondre-20-for-meg-hadde-det-vart-bedre-a-ga-pa-spesialskole/f/5-76-751487)</p>
+```
+
+```{=html}
+<p>Poenget mitt er at skolesystemet lider av store problemer med å 1. tilrettelegge for alle elever, også de flinkeste, 2. å forebygge mobbing i tilstrekkelig grad, 3. å faktisk ta på seg skylden for de problemene elever møter.</p>
+```
+
+```{=html}
+<p>Jeg har skrevet et innlegg på bloggen til Nye Tønsberg SV om denne problematikken i skolen: Skole for alle! (https://tonsbergsv.wordpress.com/2018/05/19/skole-for-alle/) hvor jeg kort forteller om noen av problemene i dagens skolesystem. Jeg kommer også med noen punkter som jeg mener kan forbedre skolesystemet:</p>
+```
+
+```{=html}
+<p>– Opprette et innbyggerombud som kan veilede innbyggerne og om nødvendig føre deres sak.</p>
+```
+
+```{=html}
+<p>– Øke lærertettheten i skolen.</p>
+```
+
+```{=html}
+<p>– Gi lærene mulighet til mer kurs og videreutdanning slik at de er i stand til å gjøre jobben sin med den kunnskapen den krever.</p>
+```
+
+```{=html}
+<p>– Gi lærerne mer spillerom til å tilpasse undervisningen.</p>
+```
+
+```{=html}
+<p>– Innføre retningslinjer om at veiledning fra spesialisthelsetjenesten skal følges og at dette ikke kun sees på som veiledende.</p>
+```
+
+```{=html}
+<p>– I større grad lage grupper der elever med ulike lærevansker ol. Er sammen I en arbeidsgruppe utenfor klassen heller en en-en undervisning. Dette kan også der det er hensiktsmessig gjøres på tvers av aldersgrupper. Dette som et tiltak for å øke sosialiseringen til elever samt minske følelsen av utenforskap.</p>
+```
+
+```{=html}
+<p>– I større grad ta I bruk digitale hjelpemidler I skolen som å ha tilgjengelig PC/ nettbrett til elever.</p>
+```
+
+```{=html}
+<p>– Gratis frokost og lunsj samt frukt til elever.</p>
+```
+
+## «Not everything that steps out of line, and thus 'abnormal', must necessarily be 'inferior'»
+
+## -  Hans Asperger 1938
+
+```{=html}
+<p>Det er ikke for å bruke disse sakene til min politiske vinning, jeg er utrolig opptatt av at dagens skolesystem må forbedres betraktelig.</p>
+```
+
+```{=html}
+<p>Jeg vil la dere få lese gjennom disse artiklene og selv danne deres mening om ha som bør gjøres.</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fen-tapt-barndom%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=En%20tapt%20barndom...&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fen-tapt-barndom%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=En%20tapt%20barndom...&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fen-tapt-barndom%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/en-tapt-barndom/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

@@ -1,0 +1,19 @@
+---
+title: "Wiki Brukerforum"
+date: 2023-06-09
+description: "En wiki for brukerrepresentanter fra Brukerforum – for nye, erfarne og tidligere brukerrepresentanter i helsetjenesten, fylke, kommune og NAV."
+page-layout: article
+toc: false
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+
+<p class="card-kicker">Wiki / ressurs</p>
+
+Wiki Brukerforum er en samleside for brukerrepresentanter tilknyttet Brukerforum, med praktisk informasjon for nye, erfarne og tidligere representanter i helsetjenesten, fylke, kommune og NAV.
+
+Wikien samler erfaringer, maler og henvisninger på ett sted, slik at kunnskap ikke går tapt når representanter slutter eller bytter verv.
+
+[Besøk Wiki Brukerforum →](https://sondrestraume.wordpress.com/portfolio/wiki-brukerforum/){.btn .btn-primary target="_blank" rel="noopener"}
+
+[← Tilbake til prosjekter](../index.qmd){.btn .btn-ghost}

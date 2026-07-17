@@ -1,0 +1,26 @@
+---
+title: "Intervju med NRK ang Ungdomsrådet v. SiV"
+date: 2018-05-02
+description: "[office src=\"https://onedrive.live.com/embed?cid=573222CEFC573D79&resid=573222CEFC573D79%2159221&authkey=AOFzVZmKjhLLzX8\"…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>[office src="https://onedrive.live.com/embed?cid=573222CEFC573D79&resid=573222CEFC573D79%2159221&authkey=AOFzVZmKjhLLzX8" width="98" height="120"]</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fintervju-med-nrk-ang-ungdomsradet-v-siv%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Intervju%20med%20NRK%20ang%20Ungdomsr%C3%A5det%20v.%20SiV&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fintervju-med-nrk-ang-ungdomsradet-v-siv%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Intervju%20med%20NRK%20ang%20Ungdomsr%C3%A5det%20v.%20SiV&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fintervju-med-nrk-ang-ungdomsradet-v-siv%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/intervju-med-nrk-ang-ungdomsradet-v-siv/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

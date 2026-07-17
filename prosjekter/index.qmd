@@ -1,0 +1,19 @@
+---
+title: "Prosjekter"
+page-layout: article
+toc: false
+listing:
+  id: prosjekter
+  contents: "*/index.qmd"
+  type: grid
+  sort: "date desc"
+  fields: [title, date, description]
+  sort-ui: false
+  filter-ui: false
+  date-format: "D MMM YYYY"
+---
+
+Et utvalg prosjekter jeg har startet eller bidratt til – digitale ressurser, verktøy og nettverk for brukerrepresentanter og autismefeltet.
+
+::: {#prosjekter}
+:::

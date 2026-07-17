@@ -1,0 +1,50 @@
+---
+title: "Valget"
+date: 2018-04-02
+description: "Vi må alle ta et stort valg her i livet, noen flere en én gang også. Dette valget blir grunnsteinen i våre liv, den legger…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>Vi må alle ta et stort valg her i livet, noen flere en én gang også. Dette valget blir grunnsteinen i våre liv, den legger fundamentet for hvem vi skal være og hva vi kommer oppnå. Dette valget er på liv og død. Valget står mellom å la andre knekke deg eller å selv vokse under andres urettferdighet.</p>
+```
+
+```{=html}
+<p>Jeg har selv for mange år siden valgt å ikke la mine opplevelser tidligere i livet ødelegge meg, men heller å se på det som et lukket kapittel i boka og noe som har herdet meg. Dette betyr ikke at jeg har tilgitt å aldri fått den utdannelsen jeg skulle fått, at jeg ble mobbet i 7 år på barneskolen og ikke hadde noen ordentlige venner, eller at jeg ofte fikk høre at jeg aldri kom til å bli noe her i verden.</p>
+```
+
+```{=html}
+<p>Når jeg får høre slike ting, sta som jeg er, kun bestemt på å motbevise det folk mener jeg er. For jeg er ikke definert hverken av lærere, mine foreldre, venner, diagnosemanualer eller psykiatere. Den eneste med makt til å definere hvem jeg skal være er meg selv og det samme gjelder alle andre.</p>
+```
+
+```{=html}
+<p>Tilbake til valget. Altså jeg har valgt å vokse ikke visne av mine utfordringer. Den som benytter utfordringer til å vokse på er dem som jeg tror kan komme lengst her i verden. Når jeg da velger å heve meg over det lave nivå jeg må si folk lar seg synke til føles det godt.</p>
+```
+
+```{=html}
+<p>Det føles godt å tenke på at jeg i SV har mulighet til å formidle og benytte min kunnskap og opplevelser fra skolevesenet, helsevesenet, psykiatri og ulike etater til å kunne forbedre samfunnet, slik at andre kanskje kan slippe å måtte gå igjennom det samme som meg.</p>
+```
+
+```{=html}
+<p>Det jeg har opplevd i mine 21 leveår kunne vært nok for et helt liv, men på en måte har det jo formet meg til den jeg er i dag. Dermed kan en jo ikke nødvendig vis si at en skulle ønske alt kunne vært annerledes, for da ville jeg antagelig vært en annen person... Samtidig plager mine opplevelser meg til stadighet, de liksom spilles om og om igjen for meg slik at det ikke er mulig å konsentrere seg.</p>
+```
+
+```{=html}
+<p>Men hvem hadde jeg vært om dette ikke var tilfellet? Det får vi aldri vite...</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fvalget%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Valget&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fvalget%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Valget&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fvalget%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/valget/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

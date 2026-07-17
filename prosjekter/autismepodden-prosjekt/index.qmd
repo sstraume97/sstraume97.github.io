@@ -1,0 +1,19 @@
+---
+title: "Autismepodden"
+date: 2023-03-26
+description: "Norges første podcast om autisme. Målet er å formidle faglig korrekt informasjon uten å miste autistenes stemme."
+page-layout: article
+toc: false
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+
+<p class="card-kicker">Podkast</p>
+
+Autismepodden er Norges første podcast om autisme – en podcast av og med autister, om autisme og relaterte emner.
+
+Målet er å formidle faglig korrekt kunnskap uten å miste autistenes egen stemme, og å gi rom for både forskning og levde erfaringer.
+
+[Besøk Autismepodden →](https://www.autismepodden.no/){.btn .btn-primary target="_blank" rel="noopener"}
+
+[← Tilbake til prosjekter](../index.qmd){.btn .btn-ghost}

@@ -1,0 +1,30 @@
+---
+title: "Intervju med NRK P1 Vestfold"
+date: 2018-04-26
+description: "Jeg tenkte jeg kunne dele intervjuet fra jeg var i radioen sist"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>Jeg tenkte jeg kunne dele intervjuet fra jeg var i radioen sist [office src="https://onedrive.live.com/embed?cid=573222CEFC573D79&resid=573222CEFC573D79%2159157&authkey=AOZpZQRIEk16o8U" width="100%" height="150"]</p>
+```
+
+```{=html}
+<p>[office src="https://onedrive.live.com/embed?cid=573222CEFC573D79&resid=573222CEFC573D79%2159151&authkey=ABBfWU9tjoASouI" width="100%" height="150"]</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2F240%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Intervju%20med%20NRK%20P1%20Vestfold&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2F240%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Intervju%20med%20NRK%20P1%20Vestfold&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2F240%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/240/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

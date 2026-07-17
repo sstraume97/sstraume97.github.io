@@ -1,0 +1,45 @@
+---
+title: "Lenker"
+page-layout: article
+toc: false
+---
+
+## Foreninger
+
+- [Autismeforeningen i Norge](http://www.autismeforeningen.no){target="_blank" rel="noopener"}
+- [AD/HD foreningen i Norge](http://www.adhdnorge.no){target="_blank" rel="noopener"}
+- [Norges Astma og Allergiforbund](http://www.naaf.no){target="_blank" rel="noopener"}
+- [Funksjonshemmedes Fellesorganisasjon](http://www.ffo.no){target="_blank" rel="noopener"}
+- [Mental Helse Norge](http://www.mentalhelse.no/){target="_blank" rel="noopener"}
+- [Autism Europe](https://www.autismeurope.org/){target="_blank" rel="noopener"}
+- [Foreningen Spekteret](https://www.spekteret.no/){target="_blank" rel="noopener"}
+
+## Kompetansesentre
+
+- [Glenne regionalt senter for autisme](http://www.glennesenter.no){target="_blank" rel="noopener"}
+- [Nasjonalt kompetansesenter for nevroutviklingsforstyrrelser og hypersomnier](http://www.nevsom.no){target="_blank" rel="noopener"}
+
+## Av autister og pårørende
+
+- [Autismesiden](http://www.autismesiden.no){target="_blank" rel="noopener"}
+- [Autistic Self Advocacy Network](https://autisticadvocacy.org/){target="_blank" rel="noopener"}
+- [Aspergerinformator](https://aspergerinformator.com/){target="_blank" rel="noopener"}
+- [Nevrodiversrebell](http://hvemseross.wordpress.com){target="_blank" rel="noopener"}
+
+## Ikke norske ressurser
+
+- [Tony Attwood – Ledende kliniker innen autismespekteret](http://www.tonyattwood.com.au/){target="_blank" rel="noopener"}
+
+## Gratis kurs og slikt
+
+- [Autismespekterforstyrrelse hos personer med utviklingshemming – helsekompetanse.no](http://helsekompetanse.no/kurs/autismespekterforstyrrelse-hos-personer-med-utviklingshemming){target="_blank" rel="noopener"}
+
+## Forskning
+
+- [Cochrane Library](http://www.cochranelibrary.com/){target="_blank" rel="noopener"}
+- [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/){target="_blank" rel="noopener"}
+- [Molecular Autism](https://molecularautism.biomedcentral.com/){target="_blank" rel="noopener"}
+- [SAFARI – Simons Foundation Autism Research Initiative](http://safari.org){target="_blank" rel="noopener"}
+- [INSAR – International Society for Autism Research](https://www.autism-insar.org/default.aspx){target="_blank" rel="noopener"}
+- [Autism Research Institute](http://autism.org){target="_blank" rel="noopener"}
+- [Autism Research Centre](https://www.autismresearchcentre.com/){target="_blank" rel="noopener"}

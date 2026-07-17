@@ -1,0 +1,63 @@
+---
+title: "Høring om Avvikling av godkjenningsordningen innen fritt behandlingsvalg"
+date: 2022-05-29
+categories: ["FBV", "fritt behandlingsvalg", "godkjenningsordningen FBV", "helse"]
+description: "Regjeringen Solberg innførte i 2015 godkjenningsordningen innen fritt behandlingsvalg (FBV) hvor private behandlere kan søke…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>Regjeringen Solberg innførte i 2015 godkjenningsordningen innen fritt behandlingsvalg (FBV) hvor private behandlere kan søke HELFO om å kunne tilby spesialisthelsetjenester mot betaling fra staten.</p>
+```
+
+```{=html}
+<p>Det er lett å bli politisk i denne saken, noe jeg selvsagt kan være her, men ikke når jeg arbeider med dette i foreningssammenheng eller i brukerutvalget i Helse Sør-Øst.</p>
+```
+
+```{=html}
+<p>Hva som er riktig her kan man begrunne ideologisk (høyresiden ønsker mer privat mens venstresiden ønsker mer offentlig). Det kan også begrunnes saklig.</p>
+```
+
+```{=html}
+<p>Selv er jeg noe delt i spørsmålet om privat kontra offentlig, noe som antagelig er en følge av min erfaring med privat og offentlig skole. Jeg ser høyresidens argumenter om økt mangfold og valgfrihet, men ser samtidig venstresidens motstand mot profitt i velferden.</p>
+```
+
+```{=html}
+<p>Jeg er ikke for at private skal tjene penger på velferd, men mener samtidig at pasienten er viktigst. Derfor ser jeg behovet for å kjøpe tjenester av det private der det offentlige ikke har et godt nok tilbud eller det private tilbyr andre behandlingstilnærminger.</p>
+```
+
+```{=html}
+<p>Det fremkommer av Evaluering av fritt behandlingsvalg (2021) (https://www.regjeringen.no/contentassets/b3da8a002e2647429b8d82776fd7e8c4/evaluering-av-fritt-behandlingsvalg.pdf) at spesielt innen psykisk helsevern (PHV) og tverrfaglig spesialisert behandling (TSB) har ordningen hatt positive effekter for pasientene og at den økte valgfriheten anses som viktig for pasientene.</p>
+```
+
+```{=html}
+<p>En løsning vil kunne være at dagens tilbydere under godkjenningsordningen blir overført til helseforetakenes (HF-enes) anbudsavtaler, noe som vil sikre videreføring av dagens mangfold og tilbud, samtidig som at det blir underlagt bedre offentlig kontroll og ivaretar HF-enes planleggingsbehov.</p>
+```
+
+```{=html}
+<p>Mer om høringen på regjeringens sider. (https://www.regjeringen.no/no/dokumenter/horing-avvikling-av-godkjenningsordningen-i-fritt-behandlingsvalg/id2906819/?expand=horingsbrev)</p>
+```
+
+```{=html}
+<p>Hva mener du om avviklingen?</p>
+```
+
+```{=html}
+<p>Jeg vil gjerne høre fra deg, legg gjerne inn dine tanker og meninger i kommentarfeltet under!</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Favvikling-av-godkjenningsordningen-innen-fritt-behandlingsvalg%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=H%C3%B8ring%20om%20Avvikling%20av%20godkjenningsordningen%20innen%20fritt%20behandlingsvalg&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Favvikling-av-godkjenningsordningen-innen-fritt-behandlingsvalg%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=H%C3%B8ring%20om%20Avvikling%20av%20godkjenningsordningen%20innen%20fritt%20behandlingsvalg&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Favvikling-av-godkjenningsordningen-innen-fritt-behandlingsvalg%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/avvikling-av-godkjenningsordningen-innen-fritt-behandlingsvalg/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

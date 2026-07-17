@@ -1,2 +1,6 @@
-/dist/
+/_site/
 node_modules/
+
+/.quarto/
+**/*.quarto_ipynb
+index.html.md

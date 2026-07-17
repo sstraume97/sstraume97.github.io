@@ -1,0 +1,19 @@
+---
+title: "Ord og forkortelser"
+date: 2024-05-08
+description: "En ordbok for brukerrepresentanter i helsetjenesten – ord og forkortelser som brukes hyppig i helsevesenet og er nyttige å kunne i brukermedvirkningsarbeidet."
+page-layout: article
+toc: false
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+
+<p class="card-kicker">Ordbok / ressurs</p>
+
+Ord og forkortelser er en ordbok laget spesielt for brukerrepresentanter i helsetjenesten. Den samler ord og forkortelser som brukes hyppig i helsevesenet, forklart på en tilgjengelig måte.
+
+Målet er å gjøre det enklere for nye og erfarne brukerrepresentanter å forstå fagspråket som møter dem i møter, dokumenter og saksbehandling, slik at brukerstemmen kommer tydeligere frem.
+
+[Besøk Ord og forkortelser →](https://sondrestraume.wordpress.com/portfolio/ord-og-forkortelser/){.btn .btn-primary target="_blank" rel="noopener"}
+
+[← Tilbake til prosjekter](../index.qmd){.btn .btn-ghost}

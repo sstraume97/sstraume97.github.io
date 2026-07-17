@@ -1,0 +1,19 @@
+---
+title: "Skolesaker"
+date: 2023-03-26
+description: "Database med erstatningssaker og rettsavgjørelser, skolesaker fra media og oversikt over advokater som har vunnet frem i retten."
+page-layout: article
+toc: false
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+
+<p class="card-kicker">Database / ressurs</p>
+
+Skolesaker er en database med erstatningssaker og rettsavgjørelser knyttet til skolens svikt i tilrettelegging, samt skolesaker omtalt i media.
+
+Basen inneholder også en oversikt over advokater som har vunnet frem i slike saker, som en ressurs for familier som vurderer å forfølge egne saker rettslig.
+
+[Besøk Skolesaker →](https://sondrestraume.wordpress.com/portfolio/skolesaker/){.btn .btn-primary target="_blank" rel="noopener"}
+
+[← Tilbake til prosjekter](../index.qmd){.btn .btn-ghost}

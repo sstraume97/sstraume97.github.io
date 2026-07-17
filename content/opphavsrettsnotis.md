@@ -1,9 +1,0 @@
-## Tekst
-Stoffet på Sondre Bogen-Straumes nettsted er opphavsrettslig beskyttet materiale. Jeg gir med dette tillatelse til at tekst ikke merket med «Kopiering ikke tillat uten samtykke», fritt kan lagres elektronisk, skrives ut, mangfoldiggjøres og spres videre.
-
-Tillatelsen forutsetter henvisning til kilden stoffet er hentet fra (inkl. Sondre B. Straumes URL-adresse). Endring eller bearbeiding av stoffet forutsetter samtykke.
-
-Se Lov om opphavsrett til åndsverk m.v. (åndsverkloven) (https://lovdata.no/dokument/NL/lov/1961-05-12-2) for mer informasjon om opphavsrett.
-
-sondrestraume.wordpress.com av Sondre Bogen-Straume (https://sondrestraume.wordpress.com/om-meg/) er lisensiert under en Creative Commons Navngivelse 4.0 Internasjonal Lisens (http://creativecommons.org/licenses/by/4.0/).
-Tillatelse til annen bruk enn den som dekkes av denne lisensen kan være tilgjengelig fra Sondre Bogen-Straume 2018 (https://sondrestraume.wordpress.com/innholdsrettigheter/).

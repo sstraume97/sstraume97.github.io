@@ -1,0 +1,153 @@
+---
+title: "Blått eller rød-grønt styre i Tønsberg"
+date: 2023-09-09
+categories: ["helse", "kommunevalg", "Rettigheter", "Tønsberg", "velferd"]
+description: "På Poll of polls ser det dessverre mørkt ut for et rød-grønt flertall etter valget. Tønsberg (TBG) trenger en rød-grønn politikk…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>På Poll of polls ser det dessverre mørkt ut for et rød-grønt flertall etter valget. Tønsberg (TBG) trenger en rød-grønn politikk som prioriterer skole og oppvekst, helse, gode velferdstjenester drevet av kommunen, brukermedvirkning osv. Tønsberg har etter min mening politisk sett stått ganske stille i flere år. AP har om ikke lenge styrt TBG med MDG, KrF og Sp i fire år.</p>
+```
+
+```{=html}
+<p>Jeg har ikke merket stort til at AP overtok makten fra Høyre, men det er kanskje ikke så overraskende med tanke på hvilke partier som styrer sammen? Hvorfor samarbeider AP, Sp og MDG med KrF og ikke SV? Det er tross alt større ideologisk og politisk likhet mellom SV og de andre partiene. KrF tilhører høyresiden av den politiske aksen all den tid de er et kristen konservativt parti som utenom en del familiepolitikk er langt mer likt Høyre enn AP, Sp og MDG.</p>
+```
+
+```{=html}
+<p>Kilde: Poll of polls 09.09.2023, fotnoter og forbehold Lenke: http://www.pollofpolls.no/?cmd=Kommunestyre&kommune=3905 (http://www.pollofpolls.no/?cmd=Kommunestyre&kommune=3905)</p>
+```
+
+```{=html}
+<p>– InFact for Tønsbergs Blad (1/9-2023)</p>
+```
+
+```{=html}
+<p>– Sist publiserte nasjonale måling med spørsmål om stemmegivning ved kommunevalg: Opinion for Dagsavisen / FriFagbevegelse / Fagbladet (8/9-2023)</p>
+```
+
+```{=html}
+<p>– Nivåene basert på poll of polls og siste nasjonale kommunevalgmåling er landstall brutt ned på kommunene. Det knytter seg usikkerhet til slik nedbryting, særlig pga mange lokale avvik fra utviklingen nasjonalt. Se Om-siden for beskrivelse av beregningsmåten og usikkerheten.</p>
+```
+
+```{=html}
+<p>– Beregningsmåten ved nedbryting av nasjonale tall til kommunene, kan medføre at summen av partienes oppslutning avviker fra 100 pst. Mandatfordelingen påvirkes ikke av dette. Se Om-siden for nærmere beskrivelse.</p>
+```
+
+```{=html}
+<p>– Antallet mandater i kommunestyret er i denne kommunen vedtatt endret siden forrige valg.</p>
+```
+
+```{=html}
+<p>– For gruppen "Andre" er det i mandatvurderingen av beregningstekniske grunner forutsatt at denne gruppen er ett parti. Dette kan i noen tabeller gi flere mandater til gruppen "Andre" enn det reelt er grunnlag for.</p>
+```
+
+```{=html}
+<p>– Blått flertall betyr flertall for Høyre, Frp, KrF og Venstre. Rødt flertall betyr flertall for Rødt, SV, Ap og Sp. Grå farge betyr at andre partier er på vippen, ingen av blokkene har flertall.</p>
+```
+
+```{=html}
+<p>HTML-tabell</p>
+```
+
+```{=html}
+<p>Ap (http://www.pollofpolls.no/?cmd=Partier&parti=Ap) H&oslash;yre (http://www.pollofpolls.no/?cmd=Partier&parti=H) Frp (http://www.pollofpolls.no/?cmd=Partier&parti=Frp) SV (http://www.pollofpolls.no/?cmd=Partier&parti=SV) Sp (http://www.pollofpolls.no/?cmd=Partier&parti=Sp) KrF (http://www.pollofpolls.no/?cmd=Partier&parti=KrF) Venstre (http://www.pollofpolls.no/?cmd=Partier&parti=V) MDG (http://www.pollofpolls.no/?cmd=Partier&parti=MDG) R&oslash;dt (http://www.pollofpolls.no/?cmd=Partier&parti=R) Andre (http://www.pollofpolls.no/?cmd=Partier&parti=A) Flertall (http://www.pollofpolls.no/?cmd=Kommunestyre&do=flertall)</p>
+```
+
+```{=html}
+<p>1. Valg 2019 26,8 (13) 26,1 (13) 9,2 (5) 5,9 (3) 12,6 (6) 3,9 (2) 4,0 (2) 7,4 (4) 2,8 (1) 1,2 (0)</p>
+```
+
+```{=html}
+<p>2. Poll of polls (http://www.pollofpolls.no/?cmd=Kommunestyre&do=vispopalle) (brutt ned) 22,8 (9) 38,4 (16) 11,5 (5) 6,9 (3) 6,3 (3) 3,7 (2) 4,3 (2) 4,9 (2) 3,4 (1) 0,9 (0)</p>
+```
+
+```{=html}
+<p>3. Siste lokale m&aring;lings (http://www.pollofpolls.no/?cmd=Maling&gallupid=4990) 21,3 (10) 36,9 (17) 8,9 (4) 5,3 (2) 4,4 (2) 4,6 (2) 2,6 (1) 5,0 (2) 5,3 (2) 2,7 (1)</p>
+```
+
+```{=html}
+<p>4. Siste nasjonale m&aring;lingn (http://www.pollofpolls.no/?cmd=Maling&gallupid=5027) (brutt ned) 19,4 (8) 38,1 (16) 10,1 (4) 8,8 (4) 6,6 (3) 4,6 (2) 3,2 (1) 7,4 (3) 3,8 (2) 1,1 (0)</p>
+```
+
+```{=html}
+<p>5. K-snitt august (http://www.pollofpolls.no/?cmd=Kommunestyre&do=snitt&yw=202308) (brutt ned) 20,6 (8) 35,6 (15) 13,7 (6) 8,2 (3) 7,1 (3) 4,2 (2) 4,5 (2) 6,1 (3) 3,2 (1) 0,9 (0)</p>
+```
+
+```{=html}
+<p>Vi trenger politikere som tar ansvar og sørger for at det er god kvalitet i hjemmesykepleien og de psykisk-ambulerende tjenestene; for det er det ikke i dag. Her i kommunen (i likhet med flere andre kommuner) er det en overflod av inkompetente ansatte i kommunens helse- og omsorgstjenester. Ansatte som ikke har folkeskikk (eksempelvis at det første en fra hjemmesykepleien sa når han åpnet døren: «fy faen å jævlig det ser ut her»), kjennskap til gjeldene rett (det er mangelvare), faglig kunnskap (mangelvare) osv.</p>
+```
+
+```{=html}
+<p>Her i kommunen tror ikke ikke ledelsen i hjemmesykepleien at også de er omfattet av bestemmelsene om journal i pasient- og brukerrettighetsloven (pbrl.) § 5-11 og helsepersonelloven § 402.</p>
+```
+
+```{=html}
+<p>De forstår ikke hva bilag er og de mener man ikke har rett til å få innsyn i journal hvor navnene på de som fører og bruker journal er synlig. Heldigvis har Helsedirektoratet3 skrevet kommentarer til pbrl. hvor bilag er utdypet «[…] for eksempel røntgenbilder, video- og lydopptak, cardex, pleieplaner og andre skriftlige nedtegnelser.» Helsedirektoratet skriver videre at «[r]etten gjelder også innsyn i hvem som har hatt tilgang til eller fått utlevert helseopplysninger som er knyttet til pasientens eller brukerens navn eller fødselsnummer, jf. helseregisterloven § 24.»</p>
+```
+
+```{=html}
+<p>Slikt innsyn hvor man får tilgang til både bilag og hvem som har tilgang eller ført journal er standard praksis ved journalinnsyn i spesialisthelsetjenesten, nettopp fordi det er lovpålagt. Hvorfor dette ikke skulle gjelde Tønsberg kommune er ikke godt å si. At kommunens ansatte, herunder administrasjonen i hjemmesykepleien og dataansvarlig/ journalansvarlig4 ikke har kjennskap til disse grunnleggende bestemmelsene må over enhver tvil kunne hevdes å være svært kritikkverdig.</p>
+```
+
+```{=html}
+<p>Møtet med hjemmesykepleien og psykisk-ambulerende tjenester i TBG etterlater enn med flere problemer en man hadde. For når den som kommer fra kommunen for å muntre opp og hjelpe deg når du sliter, sier ting som «jeg forstår godt at du bruker sminke, for det er som natt og dag på deg» blir man nok ikke mindre deprimert eller psykisk syk. Man blir bare trøkt videre ned i gjørma.</p>
+```
+
+```{=html}
+<p>Det samme gjelder de fra hjemmesykepleien som kritiserer og nedvurderer brukeren i det daglige. Du blir ikke bedre psykisk av sånt − du får dårligere selvfølelse og tviler mer og mer på deg selv.</p>
+```
+
+```{=html}
+<p>Sånn skal det ikke være − men når politikerne ikke tar tak; innfører strengere faglige krav til ansatte og sørger for god, kontinuerlig opplæring (juridisk, helsefaglig og ikke minst i god folkeskikk) blir resultatet att vi får ansatte som ikke har god nok kompetanse og menneskelige ferdigheter til å jobbe med mennesker i en vanskelig livssituasjon.</p>
+```
+
+```{=html}
+<p>Mye av kritikken over kan for så vidt også passe til kritikk av skole, barnehage og boligkontor (riktignok med modifikasjoner) − for uansett etat eller enhet er det behov for god juridisk kompetanse, gode mellommenneskelige ferdigheter (som omsorg, medfølelse og evnen til å "gå i andres sko") og god fagkompetanse.</p>
+```
+
+```{=html}
+<p>Jeg håper virkelig ikke valgresultatet blir som prognosene tilsier, men TBG har hatt en lite populær ordfører , Anne Rygh Pedersen fra AP, som jeg ikke har hørt annet en negativt om.</p>
+```
+
+```{=html}
+<p>Den gang jeg satt i Råd for mennesker med nedsatt funksjonsevne (RMF) for SV var ordføreren Petter Berg fra Høyre. Han var en god ordfører som gjorde det enkelt å være helt fersk politiker5 eller brukerrepresentant i kommunen.</p>
+```
+
+```{=html}
+<p>Det er derfor meget synd at AP igjen har Pedersen som førstekandidat da det nok vil resultere i lavere oppslutning. Heldig vis ser vi at både SV og Rødt har steget på målingen i forhold til 2019-tall, dessverre har også Høyre, FrP og Venstre steget. Kombinasjonen av at styringspartiene mister og opposisjonen får stemmer vil − om prognosen over stemmer − resultere i at de borgerlige igjen overtar styringen av kommunen.</p>
+```
+
+```{=html}
+<p>De borgerlige vil gjøre som de borgerlige alltid gjør; privatisere og konkurranseutsette kommunens helse- og omsorgstjenester som sykehjem og hjemmesykepleie, noe mange kommuner har erfart at gir dårligere tjenester, dårligere pensjons- og arbeidsvilkår og ikke minst er dyrere6, 7 for kommunen.</p>
+```
+
+```{=html}
+<p>Kommunen trenger et nytt styre som prioriterer de viktige sakene!</p>
+```
+
+```{=html}
+<p>Et styre som ser innbyggerne, som prioriterer å ansette og videreutvikle kunnskapsrike og profesjonelle ansatte, som prioriterer skole, helse- og omsorg, og som jobber for å få innbyggerne med i utviklingen av kommunen gjennom brukermedvirkning, folkemøter, ungdomsråd og mer8.</p>
+```
+
+```{=html}
+<p>Ikke vær det antikkens grekere kalte idiot9 (ἰδιώτης (idiōtis)) – Stem ved kommune- og fylkestingsvalget i år.</p>
+```
+
+## Fotnoter/ kilder
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fblatt-eller-rod-gront-styre-i-tonsberg%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Bl%C3%A5tt%20eller%20r%C3%B8d-gr%C3%B8nt%20styre%20i%20T%C3%B8nsberg&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fblatt-eller-rod-gront-styre-i-tonsberg%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Bl%C3%A5tt%20eller%20r%C3%B8d-gr%C3%B8nt%20styre%20i%20T%C3%B8nsberg&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fblatt-eller-rod-gront-styre-i-tonsberg%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/blatt-eller-rod-gront-styre-i-tonsberg/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

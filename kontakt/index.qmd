@@ -1,0 +1,33 @@
+---
+title: "Kontakt"
+page-layout: article
+toc: false
+---
+
+Send meg en melding, så svarer jeg så snart jeg kan.
+
+```{=html}
+<!--
+  Aktivt skjema: HubSpot (matcher det som er live i dag). For å bytte til Web3Forms i stedet:
+  kommenter ut HubSpot-blokken under (script + hs-form-frame-div) og fjern kommentartegnene
+  rundt Web3Forms-skjemaet lenger ned.
+-->
+<div class="hs-form-frame" data-region="eu1" data-form-id="0e72c802-50c1-4d2c-9e57-b8b9ff2070a8" data-portal-id="139809075" style="max-width:440px; margin:0 auto; text-align:left"></div>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  if (window.hbspt) {
+    hbspt.forms.create({ region: "eu1", portalId: "139809075", formId: "0e72c802-50c1-4d2c-9e57-b8b9ff2070a8", target: ".hs-form-frame" });
+  }
+</script>
+
+<!--
+<form action="https://api.web3forms.com/submit" method="POST" style="display:flex; flex-direction:column; gap:var(--space-3); max-width:440px; margin:0 auto; text-align:left">
+  <input type="hidden" name="access_key" value="15b06699-0b3f-4956-a266-5295e18a09c6">
+  <input type="hidden" name="subject" value="Ny henvendelse fra kontaktskjema">
+  <label>Navn<br><input class="input" type="text" name="name" required style="width:100%"></label>
+  <label>E-post<br><input class="input" type="email" name="email" required style="width:100%"></label>
+  <label>Melding<br><textarea class="input" name="message" rows="5" required style="width:100%"></textarea></label>
+  <button type="submit" class="btn btn-primary">Send melding</button>
+</form>
+-->
+```

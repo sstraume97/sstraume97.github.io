@@ -1,0 +1,23 @@
+---
+title: "Autism Good Feeling Questionnaire"
+date: 2019-06-28
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fautism-good-feeling-questionnaire%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Autism%20Good%20Feeling%20Questionnaire&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fautism-good-feeling-questionnaire%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Autism%20Good%20Feeling%20Questionnaire&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fautism-good-feeling-questionnaire%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/autism-good-feeling-questionnaire/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

@@ -1,0 +1,67 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+// Farger — hentet fra _ds/…/tokens/colors.css
+$color-primary: #407E82;
+$color-primary-light: #86C6B0;
+$color-neutral-light: #F2F2F2;
+$color-emphasis: #A94F6E;
+$color-yellow-dark: #BC9A1D;
+$color-blue-dark: #486993;
+$color-body: #1a1a1a;
+
+$primary: $color-primary;
+$body-color: $color-body;
+$link-color: $color-blue-dark;
+$body-bg: #FDFDFD;
+
+$font-family-sans-serif: "Libre Baskerville", Georgia, serif;
+$font-family-serif: "Libre Baskerville", Georgia, serif;
+$font-family-base: "Libre Baskerville", Georgia, serif;
+$headings-font-family: "Playfair Display", Georgia, serif;
+$headings-font-weight: 700;
+$headings-color: $color-primary;
+
+$navbar-bg: $color-neutral-light;
+$footer-bg: $color-neutral-light;
+
+$border-radius: 0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;
+$btn-border-radius: 0;
+$input-border-radius: 0;
+
+/*-- scss:rules --*/
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-style: normal;
+  color: var(--color-heading);
+}
+
+.navbar-brand {
+  color: $color-primary !important;
+  font-family: $headings-font-family;
+  font-size: 25px;
+}
+
+.nav-link {
+  color: $color-body;
+}
+
+.navbar .nav-item:last-child .nav-link[href*="nyhetsbrev"] {
+  background: $color-primary;
+  color: #fff !important;
+  font-weight: 700;
+  padding: 0.4rem 1rem !important;
+  margin-left: 0.5rem;
+}
+
+a {
+  color: $link-color;
+}

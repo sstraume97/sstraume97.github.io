@@ -1,0 +1,54 @@
+---
+title: "TV-karakterer med Asperger"
+date: 2017-12-28
+description: "The Big Bang Theory"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>The Big Bang Theory</p>
+```
+
+```{=html}
+<p>Karakteren Dr. Sheldon Lee Cooper har tydelige tegn på Asperger syndrom. Dette kommer ikke direkte frem i serien, men om man har et trent øye er det tydelig på noen få minutter.</p>
+```
+
+```{=html}
+<p>Etter min mening er det The Big Bang Theory's Dr. Cooper som er den karakteren som best klarer å vise autisme tydelig frem til TV-seeren. Dette er en genial serie jeg ofte kjenner meg igjen i, og som utallige ganger har hjulpet meg til å forklare hvordan det er å leve med Asperger.</p>
+```
+
+```{=html}
+<p>Som for mange med AS har Sheldon vansker med mellommenneskelig sosial kontakt, han blir kalt C-3PO pga hans stive, klønete gange og bevegelsesmønster. Han har også det man må kunne kalle særinteresser som tog, fysikk og har fotografisk hukommelse noe en del med AS har. Broen</p>
+```
+
+```{=html}
+<p>I Broen har Saga Noren tydlige tegn på Asperger syndrom. Sofia Helen klarer bemerkelsesverdig godt å leve seg inn i karakteren Saga Noren's vansker knyttet til diagnosen. Dette er som også ved The Big Bang overspilling av en stereotyp, men dette er helt nødvendig om mann i gata skal klare å gjenkjenne de autistiske symptomene.</p>
+```
+
+```{=html}
+<p>Dette er en av mine favorittserier og jeg mener karakteren Saga Noren har en realistisk autistisk atferd.</p>
+```
+
+```{=html}
+<p>Jeg anbefaler aller å se på disse seriene og prøve å legge merke til Sags og Dr. Cooper væremåte og særtrekk om man vil lære om Asperger men samtidig ha det utrolig artig.</p>
+```
+
+```{=html}
+<p>Og nei, dette er ikke å ha det morsomt på bekostning av menneske med en meget gjennomgripende lidelse som Asperger jo er. Spør du meg som har Asperger kommer jeg til å si at dette er fantastisk humor som man må le av.</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Ftv-karakterer-med-asperger%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=TV-karakterer%20med%20Asperger&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Ftv-karakterer-med-asperger%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=TV-karakterer%20med%20Asperger&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Ftv-karakterer-med-asperger%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/tv-karakterer-med-asperger/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

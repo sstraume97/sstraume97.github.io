@@ -1,0 +1,77 @@
+---
+title: "Stilguide"
+page-layout: article
+toc: false
+---
+
+Referanse for elementer brukt i artikler og andre sider – overskrifter, skillelinjer, infobokser og standardkomponenter.
+
+## Nummererte overskrifter
+
+Brukes i blogginnlegg. Overskrifter nummereres automatisk (1, 2, 3 … / 1.1, 1.2 … / 1.1.1 …).
+
+::: {.post-body style="border:1px solid var(--color-divider); padding:var(--space-4)"}
+## Eksempel-overskrift nivå 2
+Brødtekst under nivå 2.
+
+### Eksempel-overskrift nivå 3
+Brødtekst under nivå 3.
+
+#### Eksempel-overskrift nivå 4
+Brødtekst under nivå 4.
+:::
+
+## Skillelinje
+
+:::: {.divider}
+::: {.line}
+:::
+::: {.dot}
+:::
+::: {.dot .mid}
+:::
+::: {.dot}
+:::
+::: {.line}
+:::
+::::
+
+## Infobokser
+
+::: {.info}
+Spør alltid den enkelte hvilket ord de selv foretrekker.
+:::
+
+::: {.advarsel}
+Dette er en advarsel – brukes til å fremheve noe kritisk eller sensitivt.
+:::
+
+::: {.bla}
+Dette er en supplerende boks – brukes til tips eller utdypende informasjon.
+:::
+
+::: {.gull}
+Dette er en gull-boks – brukes til anbefalinger eller nøkkelpoeng.
+:::
+
+## Sitatblokk med kilde
+
+::: {.quote}
+Ingenting om oss uten oss
+<span class="source">Prinsipp innen selvadvokatering</span>
+:::
+
+## Knapper
+
+<div style="display:flex; gap:var(--space-3); flex-wrap:wrap">
+[Primærknapp](#){.btn .btn-primary}
+[Sekundærknapp](#){.btn .btn-secondary}
+[Ghost-knapp →](#){.btn .btn-ghost}
+</div>
+
+## Kort
+
+::: {.card-box}
+### Korttittel
+Kortets brødtekst, gjerne kort og konsist.
+:::

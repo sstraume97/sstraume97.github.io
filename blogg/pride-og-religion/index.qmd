@@ -1,0 +1,76 @@
+---
+title: "Pride og religion"
+date: 2018-07-10
+categories: ["diskriminering", "mobbing"]
+description: "Markeringen og feiringen av Pride har startet. Og i den siste tiden har det florert av kommentarer på facebook som «trenger vi…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+::: {.quote}
+Denne teksten var ment å komme ut noe tidligere som dere sikkert forstår, men bedre sent en aldri.
+<span class="source">Sitat</span>
+:::
+
+```{=html}
+<p>Markeringen og feiringen av Pride har startet. Og i den siste tiden har det florert av kommentarer på facebook som «trenger vi egentlig Pride lenger?» og jeg må på vegne av det skeive samfunn si at ja det gjør vi.</p>
+```
+
+```{=html}
+<p>For samtidig som samfunnet som helhet har blitt mer liberalt og aksepterende ovenfor ulik type kjærlighet og kjønn, er det fortsatt noen, spesielt i de religiøse og konservative miljøene som i 2018 ikke aksepterer at en gutt kan elske en gutt, en jente en jente, at en kan være født med feil kjønn eller føle at en ikke passer inn i et av de to snevre kategoriene vi kaller mann og kvinne.</p>
+```
+
+```{=html}
+<p>Jeg gir f-en i om du er kristen, jøde, muslim eller noe annet, men hva er det som kan få deg til å si at jeg ikke kan elske en gutt som du elsker en kvinne?</p>
+```
+
+```{=html}
+<p>Jeg er homofil og helt åpen om det, men mange tør fortsatt i 2018 ikke å være åpen om sin legning. Det er rett og slett flaut at det fortsatt er lov å diskriminere skeive med beskyttelse av religion.</p>
+```
+
+```{=html}
+<p>Per i dag er det fortsatt mennesker som mener at jeg ikke skal få lov å gifte meg med en mann og få barn med ham, men hvilke grunner har du til å kunne påstå to av samme kjønn skal kunne få gifte seg? Det er for meg et mysterium hvordan min og andres legning og kjønn skal kunne plage deg så mye at vårt levesett, vår måte å leve og elske på bør forbys.</p>
+```
+
+```{=html}
+<p>Vi lever i 2018 folkens..... hvordan kan vi fortsatt tillate diskriminering av skeive? Hvordan kan vi forsvare deres rett til å gjøre det med god samvittighet?</p>
+```
+
+```{=html}
+<p>Det er utrolig trist, jeg pleier gråte, men dette er noe som nesten får meg til å gråte. Min legning er vel ikke noe som går ut over deg (om du ikke er en kvinne da og mener jeg stjeler mennene dine). Men ditt hat mot oss går faktisk ut over oss!</p>
+```
+
+```{=html}
+<p>Deres gud(er) burde skamme seg, eller kanskje dere burde, kommer jo an på hva gud egentlig mener om dette...</p>
+```
+
+```{=html}
+<p>Jeg tror ikke på noen gud, jeg tror på evolusjon og der finner en god forklaring på hvorfor homofili finnes. Men med deres guder, guder som har skapt alt perfekt, guder som i seg selv er perfekte. Hvordan har de klart å lage oss meg en så stor feil som dere synes homofili er?</p>
+```
+
+```{=html}
+<p>Nei jeg er stolt av å være skeiv, jeg er stolt av å tilhøre en gruppe mennesker som generelt har mer aksept for annerledeshet. For jeg er ikke bare en homse, soper eller hva du nå måtte ønske å kalle det (kunne uansett ikke brydd meg mindre), men jeg har også Asperger syndrom, og innen gruppen som har en autismespekterforstyrrelse finnes det flere skeive en i den generelle befolkningen.</p>
+```
+
+```{=html}
+<p>Det finnes flere som ikke føler at de er mann eller kvinne, meg inkludert, jeg sier jeg er en mann for biologisk er jeg det, men jeg føler ikke å passe inn i hverken kategorien mann eller kvinne. Derfor når jeg har tid til å greie ut om disse tingene pleier jeg bare å si at jeg er en Asperger.</p>
+```
+
+```{=html}
+<p>Dere har noe å lære av den såkalte homolobbyen, nemlig at annerledeshet er et gode for samfunnet, det gjør oss mer fargerike, mer innovative og mer fremgangsrike. Våre forskjeller er våres styrke og det mener jeg verden ikke har innsett helt enda.</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fpride-og-religion%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Pride%20og%20religion&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fpride-og-religion%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Pride%20og%20religion&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fpride-og-religion%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/pride-og-religion/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

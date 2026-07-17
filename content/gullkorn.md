@@ -1,8 +1,0 @@
-## Intro
-Dette er min private samling av «gullkorn» – de dønn ærlige, men gjerne rare eller upassende tingene vi autister noen ganger sier, delt av mamma på Facebook opp gjennom årene. Det er viktig å ikke ta seg selv så høytidelig, og heller se humoren i egne særheter.
-
-## Gullkorn
-Sondre skulle presentere seg selv på engelsk og fortelle hva mamma jobber med. «Det kan jeg ikke si her på skolen», sa han til læreren – for mamma var «WashyBitch på Univern». | 20. oktober 2011
-Vi snakket om at 17. mai burde gitt fri 16. mai også. Sondre: «Hvis jeg er sliten 18. mai går jeg ikke på skolen – det hadde vel ikke du gjort heller, mamma?» Jo, svarte jeg, jeg gikk selv om jeg var trøtt. «Du ja», sa han, «men du er jo Duracell – den gang du var liten fantes det ikke batterier, så du var vel egentlig Duracellens mor.» | 17. mai 2011
-Vi så på en Finn.no-annonse der en fyr solgte over 10 000 bilbrosjyrer. Sondre lo: «Han har sikkert fått seg dame og må kvitte seg med samlinga.» Svaret kom lynraskt da jeg lo tilbake: «Jeg skal ALDRI ha meg noen kjerring – de ødelegger jo alt, det har jeg erfaring med fra når DU rydder rommet mitt!» | 18. juli 2011
-På ferie i Tyrkia: «Faan, nå er jeg traumatisert for livet… jeg holdt på å kræsje med en flodhest akkurat, hun ligger der borte.» | 25. august 2011

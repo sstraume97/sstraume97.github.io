@@ -1,0 +1,73 @@
+---
+title: "Sensorisk integrasjon dysfunksjon (SID)"
+date: 2019-07-05
+categories: ["Sendorisk integrasjon dysfunksjon", "SID"]
+description: "Ved SID klarer ikke hjernen å prosessere informasjonen den får gjennom sanseinntrykkene på en adekvat måte, noe som for mange…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+## For mye informasjon
+
+```{=html}
+<p>Ved SID klarer ikke hjernen å prosessere informasjonen den får gjennom sanseinntrykkene på en adekvat måte, noe som for mange resulterer i en overbelastning av hjernen. Videoene under viser dette på ulike måter og i ulike settinger. De viser hvordan ulike situasjoner blir påvirket av SID og hvordan f.eks. et jobb intervju kan være vanskelig for en med autisme.</p>
+```
+
+```{=html}
+<p>Autister har ofte SID som en del av sine vansker. Selv sliter jeg med lyder. Jeg har vært til hørsels kontroll tidligere og besto med glans, men uavhengig av dette er det spesielt vanskelig for meg å ha en samtale når det er bakgrunnsstøy. Altså klarer jeg ikke å filtrere lydene jeg hører og skille mellom viktig og uviktig informasjon.</p>
+```
+
+```{=html}
+<p>https://youtu.be/ycCN3qTYVyo</p>
+```
+
+```{=html}
+<p>I denne videoen ser en hvordan mange ulike auditive og visuelle sanseinntrykk kan blande seg sammen og forsterke hverandre.</p>
+```
+
+```{=html}
+<p>https://youtu.be/aPknwW8mPAM</p>
+```
+
+```{=html}
+<p>På kjøpesenter er det mange lyder, lukter og visuell støy. Dette er for mange autister ekstremt ekstremt mentalt krevende.</p>
+```
+
+```{=html}
+<p>https://youtu.be/GflKHWfnH-Y</p>
+```
+
+```{=html}
+<p>SID gjør at vi oppfører oss noe annerledes. Annerledes oppførsel medfører negativ oppmerksomhet fra andre. Negativ oppmerksomhet kan medføre at vi isolerer oss for å unngå negative opplevelser.</p>
+```
+
+```{=html}
+<p>https://youtu.be/sMn2o9EYa08</p>
+```
+
+```{=html}
+<p>Opplevelser bygger seg opp. Både negative og positive opplevelser bygger seg opp i løpet av dagen. Dette kan være ekstremt mentalt krevende og i visse tilfeller resulterer det i kognitiv kollaps.</p>
+```
+
+```{=html}
+<p>https://youtu.be/GAehvcnFjmI</p>
+```
+
+```{=html}
+<p>Jobbintervju kan være utrolig krevende. Folk har generelt lite kunnskap om autisme og når en skal promotere selv er det fort å gjøre feil. Mange med autisme er uføre. Mange av disse har iherdig forsøkt å finne en jobb, men kommer ikke forbi jobbintervjuet.</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fsensorisk-integrasjon-dysfunksjon-sid%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Sensorisk%20integrasjon%20dysfunksjon%20(SID)&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fsensorisk-integrasjon-dysfunksjon-sid%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Sensorisk%20integrasjon%20dysfunksjon%20(SID)&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fsensorisk-integrasjon-dysfunksjon-sid%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/sensorisk-integrasjon-dysfunksjon-sid/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

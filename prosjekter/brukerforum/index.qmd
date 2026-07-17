@@ -1,0 +1,19 @@
+---
+title: "Brukerforum"
+date: 2023-04-05
+description: "En gruppe for erfaringsutveksling og samarbeid mellom brukerrepresentanter i utvalg, råd og prosjekter, på tvers av brukerorganisasjoner."
+page-layout: article
+toc: false
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+
+<p class="card-kicker">Nettverk</p>
+
+Brukerforum er en gruppe for erfaringsutveksling og samarbeid mellom brukerrepresentanter i utvalg, råd og prosjekter, på tvers av brukerorganisasjoner.
+
+Formålet er å styrke brukerstemmen ved å gjøre det enklere å dele erfaringer og støtte hverandre i vervene, uavhengig av hvilken organisasjon man representerer.
+
+[Besøk Brukerforum →](https://sondrestraume.wordpress.com/portfolio/brukerforum/){.btn .btn-primary target="_blank" rel="noopener"}
+
+[← Tilbake til prosjekter](../index.qmd){.btn .btn-ghost}

@@ -1,0 +1,30 @@
+---
+title: "Hvor er mine kroppsdeler?"
+date: 2018-01-06
+description: "Har dere noen gang lagt merke til at jeg ofte har hendene samlet, eller benene i kryss? Dette er fordi jeg ikke kan føle hvor de…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>Har dere noen gang lagt merke til at jeg ofte har hendene samlet, eller benene i kryss? Dette er fordi jeg ikke kan føle hvor de er.</p>
+```
+
+```{=html}
+<p>Det er litt rart å tenke på at mange mennesker har en slags indre følelse av hvor de har armer og ben, men jeg mangler denne. Hvis jeg ikke kan føle at hendene er sammen eller se de aner jeg ikke hvor de er. Dette er ikke uvanlig for autister men høres nok like rart ut for dere som det at dere vet hvor armer og ben er for meg.</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fhvor-er-mine-kroppsdeler%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Hvor%20er%20mine%20kroppsdeler%3F&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fhvor-er-mine-kroppsdeler%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Hvor%20er%20mine%20kroppsdeler%3F&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fhvor-er-mine-kroppsdeler%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/hvor-er-mine-kroppsdeler/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

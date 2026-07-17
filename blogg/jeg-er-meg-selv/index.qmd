@@ -1,0 +1,54 @@
+---
+title: "Jeg er meg selv!"
+date: 2017-12-29
+description: "[caption id=\"attachment_137\" align=\"aligncenter\" width=\"266\"] Jeg liker godt å bruke neglelakk. Det startet med at jeg testet ut…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+### Kom aldri å si at jeg skal være noe annet en det jeg er!
+
+```{=html}
+<p>[caption id="attachment_137" align="aligncenter" width="266"] Jeg liker godt å bruke neglelakk. Det startet med at jeg testet ut forskjellige ting for at folk skulle se annerledes på meg. det endte med neglelakk og jeg digger det![/caption]</p>
+```
+
+#### Hvorfor være noen annen en man er?
+
+```{=html}
+<p>Jeg hadde ikke klart å skulle være noen annen en den jeg er. Den jeg er er en gutt på 20 år som har Asperger syndrom, AD/HD, Ikke-organisk forstyrrelse av søvn-våkenrytmen, med Vitiligo, astma, lettere angst og problemer med mellommenneskelige sosiale relasjoner.</p>
+```
+
+```{=html}
+<p>Desuten er jeg homofil (soper, homse osv), og politisk aktiv.</p>
+```
+
+```{=html}
+<p>Ja jeg bruker neglelakk. Jeg synes det er fint/ kult, og jeg føler av en merkelig grunn at jeg blir mer "usynlig" med det på... Dvs. jeg føler at folk fokuserer på mine istedet for på resten av meg. Kan føles som at folk ikke lenger legger like mye merke til mine snurrigheter når de ser neglelakk (noe folk mener er snurrig at menn bruker).</p>
+```
+
+```{=html}
+<p>Men det er vil ikke sånn at kun damer/ jenter kan bruker sånt?</p>
+```
+
+```{=html}
+<p>Før i tiden var det vanligere at menn brukte sminke, man kan vel også si at det til tider var vanligere at menn sminket seg en kvinner.</p>
+```
+
+```{=html}
+<p>Så jeg sier som netflix-serien heter: Haters Back Off!</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fjeg-er-meg-selv%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Jeg%20er%20meg%20selv!&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fjeg-er-meg-selv%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Jeg%20er%20meg%20selv!&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fjeg-er-meg-selv%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/jeg-er-meg-selv/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

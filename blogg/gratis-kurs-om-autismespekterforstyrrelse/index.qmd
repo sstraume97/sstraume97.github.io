@@ -1,0 +1,44 @@
+---
+title: "Gratis kurs om Autismespekterforstyrrelse"
+date: 2018-05-31
+description: "[caption id=\"attachment_264\" align=\"alignnone\" width=\"2362\"] Klikk på bildet for å komme til kurset![/caption]"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>[caption id="attachment_264" align="alignnone" width="2362"] Klikk på bildet for å komme til kurset![/caption]</p>
+```
+
+```{=html}
+<p>Klikk her for å komme til kurset! (http://asf.helsekompetanse.no/)</p>
+```
+
+## Gratis nettkurs
+
+```{=html}
+<p>Jeg har selv tatt dette kurset og må si at dette kurset faktisk greier å formidle betydelige deler av hva ASD er. Jeg anser meg selv å være ganske erfaren og at jeg besitter betydelig kunnskap om ASD, både i kraft av å ha Asperger, men også fordi dette er en av mine «særinteresser».</p>
+```
+
+```{=html}
+<p>Overraskende nok synes jeg dette kurset holdt et faglig høyt nivå, selv om jeg kunne mesteparten av det de formidlet, lærte jeg faktisk noe nytt. Det skal sies at kurset kun er en generell innføring i ASD, men det er virkelig et godt sted å begynne om du vil lære litt om diagnosene innen Autismespekteret.</p>
+```
+
+```{=html}
+<p>Her er mitt kursbevis :) (https://sondrestraume.wordpress.com/wp-content/uploads/2018/05/autismespekterforstyrrelse.pdf)</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fgratis-kurs-om-autismespekterforstyrrelse%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Gratis%20kurs%20om%20Autismespekterforstyrrelse&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fgratis-kurs-om-autismespekterforstyrrelse%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Gratis%20kurs%20om%20Autismespekterforstyrrelse&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fgratis-kurs-om-autismespekterforstyrrelse%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/gratis-kurs-om-autismespekterforstyrrelse/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

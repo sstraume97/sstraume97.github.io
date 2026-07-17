@@ -1,0 +1,36 @@
+---
+title: "Tenke i bilder"
+date: 2018-01-10
+description: "Bildet under illustererer hvordan et ord eller en setning for meg kan se ut. For i mitt hode er alt lagret i bilder... Jeg klarer…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+### I motsetning til nevrotypiske tenker jeg i bilder!
+
+```{=html}
+<p>Bildet under illustererer hvordan et ord eller en setning for meg kan se ut. For i mitt hode er alt lagret i bilder... Jeg klarer ikke tenke i ord, dvs at når jeg gjør matte bruker jeg ulike visualiseringsmetoder på ark for å regne ut riktig svar. Jeg kan se mønster i bilder men ikke i ord. Når jeg hører en setning vil den ofte bli lagret som noe liknende dette, når jeg da siden skal huske hva som ble sakt tar jeg opp dette bildet i hode og husker dermed samtalen.</p>
+```
+
+```{=html}
+<p>Ja dette høres sikkert sykt merkelig ut, men for meg er det naturlig.</p>
+```
+
+```{=html}
+<p>Det er mange fordeler ved det å tenke i bilder også, som at jeg aldri lager tegninger over noe men bare byger det ut fra eget hode. Jeg testkjører alt jeg lager i hode før jeg byger det, dermed blir det mindre jobb og kødd med testing og sånt.</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Ftenke-i-bilder%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Tenke%20i%20bilder&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Ftenke-i-bilder%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Tenke%20i%20bilder&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Ftenke-i-bilder%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/tenke-i-bilder/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

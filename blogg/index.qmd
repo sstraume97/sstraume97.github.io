@@ -1,0 +1,23 @@
+---
+title: "Blogg"
+page-layout: article
+toc: false
+listing:
+  id: blogg
+  contents: "*/index.qmd"
+  type: default
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  page-size: 200
+  fields: [date, title, reading-time, description, categories]
+  date-format: "D MMM YYYY"
+---
+
+Tekster om autisme, brukermedvirkning, rettigheter og formidling.
+
+[RSS-feed](https://sondrestraume.wordpress.com/feed/){.btn .btn-ghost target="_blank" rel="noopener"}
+
+::: {#blogg}
+:::

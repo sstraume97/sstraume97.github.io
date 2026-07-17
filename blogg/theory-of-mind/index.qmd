@@ -1,0 +1,42 @@
+---
+title: "Theory of Mind"
+date: 2018-05-11
+description: "Har du noen gang tenkt over hvorfor autistiske mennesker ikke alltid får med seg essensen i situasjonen? Theory of Mind…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>Har du noen gang tenkt over hvorfor autistiske mennesker ikke alltid får med seg essensen i situasjonen? Theory of Mind (mentalisering) betyr at en har en teoretisk oppfatning av hva andre tenker og føler. Det må sees på som en teori da ingen har evnen til å lese andres tanker, men de fleste har en intuitiv forståelse av hva andre tenker og føler i en gitt situasjon.</p>
+```
+
+```{=html}
+<p>[youtube https://www.youtube.com/watch?v=XDtjLSa50uk&w=560&h=315]</p>
+```
+
+```{=html}
+<p>Dette er dessverre en evne som hos mange autister er svekket. Det betyr ikke at vi ikke kan forstå hvilke følelser en gitt person har, men at det ofte vil være slik at en må kjenne personen godt for å klare å lage seg en theory of mind om den andre.</p>
+```
+
+```{=html}
+<p>Det kommer her selvsagt inn mange aspekter som påvirker vår evne til Theory og Mind, som f.eks. svekket evne til å generalisere tidligere sosiale situasjoner, språkforståelse, lese kroppsspråk og mimikk osv.</p>
+```
+
+```{=html}
+<p>Se på videoen og tenk litt over Theory of Mind!</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Ftheory-of-mind%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Theory%20of%20Mind&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Ftheory-of-mind%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Theory%20of%20Mind&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Ftheory-of-mind%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/theory-of-mind/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

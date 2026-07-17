@@ -1,0 +1,56 @@
+---
+title: "En simile for å forklare det uforklarlige"
+date: 2018-03-21
+description: "Jeg vil her prøve å bruke en simile jeg over tid har utviklet og med stor hell klart å forklare hvordan endringer av planer,…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>Jeg vil her prøve å bruke en simile jeg over tid har utviklet og med stor hell klart å forklare hvordan endringer av planer, forventninger som blir knust og alle andre ting som for meg skaper vansker i hverdagen kan ha en slik påvirkning for mitt funksjonsnivå.</p>
+```
+
+## Et glass med vann
+
+```{=html}
+<p>Tenk dere at vi har et tomt vannglass stående på kjøkkenbordet. Se nå for dere at alle de tingene som for meg er vanskelig i hverdagen er vanndråper som drypper ned i dette glasset. Nå har vi lagt grunnlaget for denne similen ved at vi alle som barn har forundret seg over hvordan vannoverflaten kan bli høyere en kanten på glasset.</p>
+```
+
+```{=html}
+<p>Når da alle de tingene som for meg er utfordrende som plutselige endringer i avtaler, forventninger som blir knust og alt annet er en eller flere vanndråper alt etter hvor utfordrende tingene er drypper ned i glasset som sakte men sikkert blir fullere og fullere. Til slutt når mange nok dråper har kommet oppi glasset vil den ene siste dråpen få vannet til å renne over. Men glasset er jo enda egentlig fullt.</p>
+```
+
+```{=html}
+<p>Når vannet renner over stopper alt opp i hodet mitt og jeg går inn i en dyp utmattelse som det kan ta alt fra én uke til flere måneder å komme ut av. Dette fordi at... Jo glasset er enda fullt og det må tørke tomt igjen, det er ikke mulig å bare tømme vannet ut, men det må fordampe og det er en langteklig prosess.</p>
+```
+
+```{=html}
+<p>Etter som glasset blir tommere og tommere blir jeg mindre og mindre utslitt igjen, men før glasset blir helt tomt er det stor fare for at det igjen blir fylt opp av en liten reinskur. Det jeg her prøver å si er at frem til glasset er helt tomt skal det mindre til før det fylles opp igjen.</p>
+```
+
+```{=html}
+<p>En annen ting er at mens glasset ikke er helt tomt vil mitt funksjonsnivå være dårligere en om glasset er tomt. Med andre ord, des fullere glasset er des synligere er de autistiske symptomene.</p>
+```
+
+```{=html}
+<p>Hva kan vi lære av dette? Jo det at funksjonsnivået er ekstremt avhengig av formen ellers. Er det mange forstyrrende ellementer i omgivelsene vil jeg fungere dårligere en om det er færre. Er jeg sliten vil jeg fungere dårligere. Jeg klarer liksom ikke tenke.</p>
+```
+
+```{=html}
+<p>Så i dag er jeg på topp, i morgen på bunnen, det fungerer omtrent slik over natten.</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fen-simile-for-a-forklare-det-uforklarlige%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=En%20simile%20for%20%C3%A5%20forklare%20det%20uforklarlige&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fen-simile-for-a-forklare-det-uforklarlige%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=En%20simile%20for%20%C3%A5%20forklare%20det%20uforklarlige&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fen-simile-for-a-forklare-det-uforklarlige%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/en-simile-for-a-forklare-det-uforklarlige/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

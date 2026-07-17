@@ -1,0 +1,61 @@
+---
+title: "CV"
+page-layout: article
+toc: false
+---
+
+<h2 class="cv-section-title"><span class="num">1</span> Sammendrag</h2>
+
+Jeg brenner for et inkluderende og varmere samfunn hvor alle, uavhengig av funksjonsnivå, legning, kjønn og bakgrunn, får like muligheter. Engasjementet for autismesaken står sentralt i alt jeg gjør. Jeg har lang erfaring med organisasjonsarbeid, flere ledende roller og brukerrepresentantverv, og samarbeider tett med spesialisthelsetjenesten om utvikling av styringsdokumenter.
+
+<h2 class="cv-section-title"><span class="num">2</span> Kompetanse</h2>
+
+:::: {.two-col}
+::: {}
+**Faglig & formidling**
+
+Autismefaglig veiledning av helsepersonell, kursutvikling, innholdsproduksjon (podcast, blogg, tekst) og redaksjonelt arbeid.
+
+**Organisasjon & ledelse**
+
+Ledelse av frivillige organisasjoner, møteledelse, strategi, styringsdokumenter og politisk påvirkningsarbeid.
+:::
+::: {}
+**Prosjekt & samarbeid**
+
+Prosjektledelse i frivillig og offentlig sektor, samhandling mellom brukerorganisasjoner, helseforetak og forvaltning.
+
+**Teknologi**
+
+Microsoft 365 og Google Workspace, WordPress, grafisk design (Affinity, Canva), CRM (HubSpot) og sosiale medier.
+:::
+::::
+
+<h2 class="cv-section-title"><span class="num">3</span> Erfaring</h2>
+
+::: {.cv-timeline}
+<div class="cv-row"><span><strong>Nestleder</strong> – Autismeforeningen i Norge</span><span class="period">Nov 2024 – nå</span></div>
+<div class="cv-row"><span><strong>Produsent og host</strong> – Autismepodden</span><span class="period">Des 2019 – nå</span></div>
+<div class="cv-row"><span><strong>Sentralstyreleder</strong> – Foreningen Talerør</span><span class="period">Des 2019 – nå</span></div>
+<div class="cv-row"><span><strong>Medlem, Brukerutvalget</strong> – Helse Sør-Øst RHF</span><span class="period">Jan 2022 – nå</span></div>
+<div class="cv-row"><span><strong>Medlem, Råd for personer med funksjonsnedsettelse</strong> – Tønsberg kommune</span><span class="period">Nov 2023 – nå</span></div>
+<div class="cv-row"><span><strong>Styreleder</strong> – AiN Vestfold fylkeslag</span><span class="period">Mar 2020 – Mar 2023</span></div>
+<div class="cv-row"><span><strong>Nestleder av Ungdomsrådet</strong> – Sykehuset i Vestfold HF</span><span class="period">Feb 2018 – Des 2019</span></div>
+<div class="cv-row"><span><strong>Anleggsgartner (lærling)</strong> – Jarlsberg Hovedgård</span><span class="period">Apr 2015 – Jan 2018</span></div>
+:::
+
+<h2 class="cv-section-title"><span class="num">4</span> Utdanning</h2>
+
+:::: {.two-col}
+::: {}
+<p><strong>Holmestrand videregående</strong><br>VG3 Påbygg, generell studiekompetanse · 2018–2020</p>
+<p><strong>Gjennestad Gartnerskole</strong><br>Naturbruk / anleggsgartner · 2013–2015</p>
+:::
+::: {}
+**Sertifikater**
+
+Førerkort kl. B, AM, T · Autorisasjon plantevernmidler (Mattilsynet) · Likepersonskurs (Autismeforeningen) · Modulbasert opplæring for brukerrepresentanter · Psykososial førstehjelp (Røde Kors).
+:::
+::::
+
+*Referanser oppgis på forespørsel. Full og oppdatert CV finnes på [LinkedIn](https://www.linkedin.com/in/sondre-bogen-straume/){target="_blank" rel="noopener"}.*

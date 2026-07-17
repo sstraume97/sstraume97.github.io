@@ -1,0 +1,9 @@
+---
+title: "Takk for påmeldingen!"
+page-layout: article
+toc: false
+---
+
+Du er nå meldt på nyhetsbrevet. Bekreft gjerne i e-posten du mottar – da er du sikret nye blogginnlegg, podkastepisoder og kursnyheter rett i innboksen.
+
+[Tilbake til forsiden](../../index.qmd){.btn .btn-secondary}

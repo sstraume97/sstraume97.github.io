@@ -1,0 +1,34 @@
+---
+title: "Kurs"
+page-layout: article
+toc: false
+---
+
+Jeg utvikler og holder kurs om autismespekterforstyrrelser for skoler, helsevesen, studenter og organisasjoner – både fysisk og digitalt.
+
+## Kurstilbud
+
+:::: {.services-grid}
+::: {.card-box}
+<div class="card-kicker">For skoler</div>
+
+### Autisme i skolen
+Forståelse, tilrettelegging og samarbeid rundt autistiske elever.
+:::
+::: {.card-box}
+<div class="card-kicker">For helsevesen</div>
+
+### Møtet med autister
+Kommunikasjon, sensorikk og pasientperspektivet i praksis.
+:::
+::: {.card-box}
+<div class="card-kicker">For organisasjoner</div>
+
+### Brukermedvirkning
+Hvordan involvere erfaringskompetanse på system- og strategisk nivå.
+:::
+::::
+
+## Ønsker du et kurs?
+
+Oversikt over avholdte kurs finnes på Autismepodden. [Ta kontakt](../kontakt/index.qmd) for forespørsler.

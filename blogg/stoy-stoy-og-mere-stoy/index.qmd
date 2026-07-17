@@ -1,0 +1,164 @@
+---
+title: "Støy, støy og mere støy"
+date: 2019-07-05
+categories: ["Bibliotek", "Hørsel", "Inkludering", "Stly", "Universell utforming"]
+description: "I går, den 4. juli 2019 postet jeg innlegget under på Facebook siden til Tønsberg og Færder bibliotek angående støynivået på…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>I går, den 4. juli 2019 postet jeg innlegget under på Facebook siden til Tønsberg og Færder bibliotek angående støynivået på biblioteket.</p>
+```
+
+```{=html}
+<p>https://www.facebook.com/TonsbergogFaerderbibliotek/posts/10161919961990055</p>
+```
+
+```{=html}
+<p>I dag den 5. juli 2019 fikk jeg dette svaret av biblioteksjefen:</p>
+```
+
+::: {.quote}
+Hei!
+<span class="source">Sitat</span>
+:::
+
+```{=html}
+<p>Takk for tilbakemeldingen din.</p>
+```
+
+```{=html}
+<p>Den åpne løsningen som ble valgt da det nye bibliotekbygget i Tønsberg ble bygd i 1992, gir en del utfordringer når det gjelder hvordan lyd beveger seg rundt i bygget.</p>
+```
+
+```{=html}
+<p>De siste årene har vi opplevd økt bruk av biblioteket - flere besøkende, som er lenger enn før, og vi opplever også at flere barnefamilier bruker biblioteket mye i helgene.</p>
+```
+
+```{=html}
+<p>De fleste bibliotek i Norge opplever nettopp dette, økt aktivitet, og mer bruk av biblioteket som møteplass. Det er en utfordring for de som ønsker at biblioteket skal være et stille sted for ro og kontemplasjon.</p>
+```
+
+```{=html}
+<p>I Tønsberg ønsker vi ikke å innføre restriksjoner for barn og gjeninnføre «hysjing». Vi har utformet innredningen slik at det er roligere nede i underetasjen, der er det sitteplasser og områder der lyden fra det som skjer ellers ikke trenger inn så lett. Vi har trukket mange arrangementer inn på egne møterom, som tidligere skjedde ute i det åpne bibliotekrommet. Lesesalen er også skjermet.</p>
+```
+
+```{=html}
+<p>I tillegg har vi fått muligheten for å tilby tilgang til biblioteket utenom vanlig åpningstid. Denne tilgangen er fra 7 om morgenen, til 23 om kvelden, alle dager hele året. Det er definitivt roligere i bygget utenom ordinær åpningstid.</p>
+```
+
+```{=html}
+<p>Jeg vet ikke når du har vært innom biblioteket i Tønsberg. På dagtid er det ofte rolig, mens det ofte er mange besøkende lørdag og søndag. På en vanlig lørdag det ofte rundt 1000 besøkende i løpet av dagen.</p>
+```
+
+```{=html}
+<p>Du foreslår å flytte barneavdelingen ned i underetasjen (jeg går ut fra at du mener underetasjen når du skriver kjelleren). Det er ikke en aktuell løsning av flere grunner, ikke minst fordi lyden likevel vil forplante seg oppover i bygget.</p>
+```
+
+```{=html}
+<p>Det er mulig du blir skuffet over svaret. En fullgod løsning vil faktisk være et nytt bibliotekbygg i Tønsberg, som også har bedre kapasitet nå som folketallet øker, og der det kan deles inn i tydeligere soner - også stillesoner. En ombygging av dagens bygg vil neppe føre til reduksjon av støy i tilstrekkelig grad, og det vil være vanskelig å få gjennomført uten å komme i konflikt med det arkitektoniske særpreget. I mellomtiden tenker vi inndeling i soner når vi gjør endringer internt i bygget, og prøver å legge til rette for alle våre besøkende.</p>
+```
+
+```{=html}
+<p>Vennlig hilsen</p>
+```
+
+```{=html}
+<p>[Navn]</p>
+```
+
+```{=html}
+<p>Biblioteksjef</p>
+```
+
+```{=html}
+<p>Slik jeg forstår biblioteksjefen er ikke biblioteket villig til å iverksette tiltak for at biblioteket skal bli mer tilgjengelig for alle, også personer med normal hørsel og normal integrasjon av sanseinntrykk. Alternativet er som hun selv skriver å være på biblioteket utenom åpningstidene. For meg er dette alternativet uaktuelt. Jeg med sensorisk integrasjon dysfunksjon (forårsaket av autismen), en funksjonshemming, opplever det som diskriminerende å ikke kunne bruke biblioteket på like vilkår med alle andre.</p>
+```
+
+```{=html}
+<p>Men det er selvsagt ikke bare personer med autisme som blir negativt rammet av støyete omgivelser. I følge Hørselshemmedes Landsforbund er omlag 14,5% av Norges befolkning hørselshemmet på en eller annen måte. Per 01.01.2019 var det 5 328 212 innbyggere i Norge. 14,5% av 5 328 212 blir 272 591 personer med hørselshemming. Bibliotekets svar er altså at 14,5% av folk får bruke biblioteket utenom åpningstid.</p>
+```
+
+::: {.quote}
+Rundt 14,5 % av Norges befolkning har en hørselshemming som påvirker hverdagen, som sosial isolasjon og frafall fra utdanning og arbeidsliv. Gruppen hørselshemmet er mangfoldig og stadig flere rammes av hørselsnedsettelse. I 2020 er en million nordmenn hørselshemmet.
+<span class="source">Sitat</span>
+:::
+
+```{=html}
+<p>- HLF (Hørselshemmedes Landsforbund) skriver (tall fra 2018)</p>
+```
+
+```{=html}
+<p>Hadde vi akseptert om dette gjaldt rullestolbrukere? Eller blinde og svaksynte? Hadde vi akseptert om det var trapper for å komme inn på biblioteket uten mulighet for folk med hjul å komme inn? Jeg tviler på det!</p>
+```
+
+```{=html}
+<p>Videre handler dette ikke bare om funksjonshemmede. Det handler også om de ansattes arbeidsmiljø.</p>
+```
+
+```{=html}
+<p>Under er en liten video som på en veldig god måte illustrerer hvordan autistiske personer kan oppleve verden grunnet sensorisk integrasjon dysfunksjon:</p>
+```
+
+```{=html}
+<p>https://youtu.be/DgDR_gYk_a8</p>
+```
+
+```{=html}
+<p>Jeg er overbevist om at hvis flere personer hadde opplevd verden slik ville vi fort ha endret på ting.</p>
+```
+
+::: {.quote}
+Hvordan ville du ha opplevd at håndtaket til utgangsdøren i huset ditt var formet som en kniv – ville du ha følt deg innestengt? Hvordan hadde du reagert hvis fontstørrelsen på teksten du leste ble mindre og mindre jo lenger ned i stykket du kom – hadde du blitt forvirret og etter hvert frustrert? Tenk deg at buksen din bare hadde et bein og du alltid måtte ta deg fram ved å hoppe – ville du etter hvert resignert og satt deg ned? Eller, hvordan hadde det vært å gå rundt med en genser uten hull til hodet – hadde du mistet identiteten din og følt deg redusert som menneske?
+<span class="source">Sitat</span>
+:::
+
+```{=html}
+<p>-  Anne Britt Torkildsby Førsteamanuensis og designforsker ved NTNU Gjøvik - oa.no</p>
+```
+
+```{=html}
+<p>Ja hva ville du følt om ting var slik hun beskriver over? Du ville neppe likt det!</p>
+```
+
+```{=html}
+<p>Det er mye som kunne vært forbedret på biblioteket i Tønsberg. For det første kunne det vært flere myke, lydabsorberende flater, videre kunne barneavdelingen vært flyttet eller aller helst kunne det vært innført et forbud mot å leke i biblioteket, unntatt på lekerommet. Det kan godt henne det bare er er jeg som er gammel (født i 1997) og dermed har gått glipp av når man fikk lov til å bråke på et bibliotek, men uansett synes jeg det er underlig at biblioteket har blitt en lekeplass, heller en et sted for å lese og arbeide. Kanskje er tidene forandret og vi kan forvente høyere lydnivåer på bibliotek en på kafé? Lydnivået oppleves ofte som mer inntrengende på biblioteket en på den nye baren "stasjonen" i Tønsberg.</p>
+```
+
+## Linker
+
+```{=html}
+<p>– For those with hearing impairments, restaurant noise isn’t just an irritation. It’s discrimination -  The Washington Post (https://www.washingtonpost.com/lifestyle/food/for-those-with-hearing-impairments-restaurant-noise-isnt-just-an-irritation-its-discrimination/2019/06/14/0223d722-8def-11e9-adf3-f70f78c156e8_story.html?fbclid=IwAR2Bmn7iz3wswXGcb3Qc4BgTcgvq6sT5ewmKCFAWu-FfsCHX-C4-_boDTjM&noredirect=on&utm_term=.372dd2596985)</p>
+```
+
+```{=html}
+<p>–  Universell utforming av skoler for elever med kognitive og sensoriske vansker - Universell utforming AS (http://universellutforming.org/wp-content/uploads/Universell_utforming_skoler_kognitive_sensoriske_vansker_01.06.2018_rev.pdf?fbclid=IwAR1NRs252og3ihFPSJxbnxR8BFYgrAia8MW_yjEHfNb9x8ZahE8nTuZAG1U)</p>
+```
+
+```{=html}
+<p>– Design som provoserer og inspirerer til endring - oa.no (https://www.oa.no/debatt/ntnu-i-gjovik/design/design-som-provoserer-og-inspirerer-til-endring/o/5-35-483409?fbclid=IwAR0PM_iZtgKZZym1FR9tar4MyK1M5jwuGyDYM9Lw65aiJ7XlJCV3TtSqsIQ)</p>
+```
+
+```{=html}
+<p>– Nedsatt hørsel - sans (https://www.sansetap.no/voksne-horsel/om/nedsatt-horsel/)etap.no (https://www.sansetap.no/voksne-horsel/om/nedsatt-horsel/)</p>
+```
+
+```{=html}
+<p>– Hørselshemmedes Landsforbund (https://www.hlf.no/hva-vi-jobber-med/universell-utforming/)</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fstoy-stoy-og-mere-stoy%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=St%C3%B8y%2C%20st%C3%B8y%20og%20mere%20st%C3%B8y&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fstoy-stoy-og-mere-stoy%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=St%C3%B8y%2C%20st%C3%B8y%20og%20mere%20st%C3%B8y&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fstoy-stoy-og-mere-stoy%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/stoy-stoy-og-mere-stoy/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

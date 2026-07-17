@@ -1,0 +1,15 @@
+---
+title: "Fagstoff: Autisme hos jenter/kvinner"
+page-layout: article
+toc: false
+---
+
+<div class="pre-line">
+Autisme kan se ulikt ut hos jenter og kvinner enn hos gutter og menn, og blir derfor ofte oppdaget senere eller ikke i det hele tatt. Videoen under, fra YouTube-kanalen Iris, forklarer hva kvinner med autisme vil at du skal vite.
+</div>
+
+```{=html}
+<div style="max-width:640px; aspect-ratio:16/9; margin-top:var(--space-4)">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/NwEH9Ui4HV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```

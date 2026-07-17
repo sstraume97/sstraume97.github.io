@@ -1,0 +1,26 @@
+---
+title: "Appell om funksjonshemmedes rettigheter"
+date: 2019-09-10
+description: "https://youtu.be/XFeDxcNdz30"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>https://youtu.be/XFeDxcNdz30</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fappell-om-funksjonshemmedes-rettigheter%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Appell%20om%20funksjonshemmedes%20rettigheter&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fappell-om-funksjonshemmedes-rettigheter%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Appell%20om%20funksjonshemmedes%20rettigheter&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fappell-om-funksjonshemmedes-rettigheter%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/appell-om-funksjonshemmedes-rettigheter/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

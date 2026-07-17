@@ -1,0 +1,83 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets
+
+lang: nb
+
+website:
+  title: "Sondres Hjørne"
+  site-url: "https://sstraume97.github.io/hjem/"
+  favicon: assets/a11y-icon.svg
+  search:
+    location: navbar
+    type: overlay
+
+  navbar:
+    background: light
+    logo: false
+    left:
+      - text: "Hjem"
+        href: index.qmd
+      - text: "Blogg"
+        href: blogg/index.qmd
+      - text: "Publikasjoner"
+        href: publikasjoner/index.qmd
+      - text: "Fagstoff"
+        menu:
+          - text: "Fagstoff (biblioteket)"
+            href: fagstoff/index.qmd
+          - text: "Lenker"
+            href: lenker/index.qmd
+          - text: "Autisme"
+            href: fagstoff/autisme/index.qmd
+          - text: "Asperger syndrom"
+            href: fagstoff/asperger/index.qmd
+          - text: "Diagnosekriterier Asperger syndrom"
+            href: fagstoff/diagnosekriterier/index.qmd
+          - text: "Autisme hos jenter/kvinner"
+            href: fagstoff/jenter/index.qmd
+      - text: "Prosjekter"
+        href: prosjekter/index.qmd
+      - text: "Kurs"
+        href: kurs/index.qmd
+      - text: "Om meg"
+        menu:
+          - text: "Om meg"
+            href: om-meg/index.qmd
+          - text: "«Gullkorn»"
+            href: gullkorn/index.qmd
+      - text: "CV"
+        href: cv/index.qmd
+      - text: "Kontakt"
+        href: kontakt/index.qmd
+    right:
+      - text: "Nyhetsbrev"
+        href: nyhetsbrev/index.qmd
+
+  page-footer:
+    background: light
+    left: |
+      **Sondres Hjørne**\
+      © 2017–2026 Sondre Bogen-Straume\
+      *«Forskjellen på idioti og genialitet er at genialitet har sine begrensninger» - Albert Einstein*
+    right: |
+      [LinkedIn](https://www.linkedin.com/in/sondre-bogen-straume/){target="_blank" rel="noopener"} · [Facebook](https://www.facebook.com/sstraume97){target="_blank" rel="noopener"} · [Zotero](https://www.zotero.org/sstraume97){target="_blank" rel="noopener"} · [Autismepodden](https://www.autismepodden.no/){target="_blank" rel="noopener"}\
+      [RSS-feed](https://sondrestraume.wordpress.com/feed/){target="_blank" rel="noopener"} · [Stilguide](/stilguide/index.qmd) · [Opphavsrettsnotis](/opphavsrettsnotis/index.qmd)
+
+  page-navigation: true
+  back-to-top-navigation: false
+
+format:
+  html:
+    theme: [cosmo, styles/theme.scss]
+    css: styles/custom.css
+    toc: false
+    number-sections: false
+    include-before-body:
+      - styles/skip-link.html
+    include-after-body:
+      - styles/a11y-widget.html
+    grid:
+      body-width: 900px

@@ -1,0 +1,72 @@
+---
+title: "Mindre byråkratisk psykiatri"
+date: 2023-01-26
+categories: ["Dokumentasjon", "Psykiatri"]
+description: "Det er ingen tvil om at det i dag er omfattende krav til rapportering. Alt skal rapporteres og måles, noe som er svært…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>Det er ingen tvil om at det i dag er omfattende krav til rapportering. Alt skal rapporteres og måles, noe som er svært ressurskrevende.</p>
+```
+
+```{=html}
+<p>Det er ingen tvil om at det er mye unødig rapportering i det offentlige. Men samtidig er det mye nødvendig rapportering og dokumentering. Det er utrolig viktig at helsevesenet, skolen, NAV etc. rapporterer og dokumenterer nøye. I mange sammenhenger vil grundig dokumentasjon fra det offentligets side være nødvendig for å sikre den enkeltes rettsvern. For om ikke det blir ført dokumentasjon ender det med at våre rettigheter som brukere at ulike tjenester ikke blir tilstrekkelig ivaretatt.</p>
+```
+
+```{=html}
+<p>I sitatet under fra Tidsskrift for Norsk psykologforening svarer helseminister Kjerkol at en av måtene man kan gjøre det mer attraktivt å jobbe i helsevesenet er å redusere krav om rapportering. Noe jeg mener både er positivt og negativt.</p>
+```
+
+::: {.quote}
+– Hva vil du gjøre for at det skal bli mer attraktivt å jobbe i psykisk helsevern?
+<span class="source">Sitat</span>
+:::
+
+```{=html}
+<p>– Vi må ta flere grep. Helseregionene har fått i oppdrag å se på rapporteringskrav og byråkrati; det som oppleves som plunder og heft, og stjeler tid som heller bør brukes på pasienten. Helsedirektoratet skal se nærmere på pakkeforløpene som nå heter nasjonale pasientforløp. De skal se på om det er mulig å kutte i antall rapporteringsrutiner.</p>
+```
+
+```{=html}
+<p>(Lover mindre byråkratisk helsevesen - Tidsskrift for Norsk psykologforening (https://psykologtidsskriftet.no/aktuelt/2023/01/lover-mindre-byrakratisk-psykisk-helsevern))</p>
+```
+
+```{=html}
+<p>For på den ene siden er det en del rapportering i helsevesenet (og andre offentlige instanser) som kan sies å være mindre viktig. Samtidig er det mye rapportering som direkte omfatter dokumentasjon av pasientbehandling. Slik rapportering som gjøres i pasientens journal er til for å dokumentere det som gjøres. Uten denne dokumentasjonen vil det være vanskelig for pasienten å kreve erstatning i ettertid for skader som følge av feilbehandling og liknende.</p>
+```
+
+```{=html}
+<p>Det samme ser vi i skoleverket hvor det er krav om at f.eks. mobbing dokumenteres jf.§ 9 A-4. Aktivitetsplikt for å sikre at elevar har eit trygt og godt psykososialt skolemiljø (https://lovdata.no/lov/1998-07-17-61/§9a-4). Om skolen blir gjort oppmerksom på at en elev blir mobbet er skolen pliktig til å undersøke saken, dokumentere funn og fatte enkeltvedtak om eventuelle tiltak som iverksettes/ ikke iverksettes. Denne plikten ser vi at ofte blir brutt, noe som resulterer i at elever som opplever grov mobbing ikke får innvilget erstatning.</p>
+```
+
+```{=html}
+<p>Jeg har selv forsøkt å kreve oppreisning og erstatning for min tid på barneskolen. Dette kan man lese mer om her Min sak mot Sandefjord Kommune (https://sondrestraume.wordpress.com/2023/01/26/min-sak-mot-sandefjord-kommune/), Min tid på barneskolen… (https://sondrestraume.wordpress.com/2018/06/16/min-tid-pa-barneskolen/) og Avslag på krav om oppreisning og erstatning (https://sondrestraume.wordpress.com/2023/01/26/avslag-pa-krav-om-oppreisning-og-erstatning-2/). Jeg vil derfor ikke gå i detalj her.</p>
+```
+
+```{=html}
+<p>Grunnen til at jeg nevner min egen sak er at det er et godt eksempel på hva konsekvensen av manglende dokumentasjon kan ha. For selv om jeg ble mobbet fra 1. til 7. klasse og skolen ved flere anledninger ble gjort oppmerksom på dette finnes det ingen dokumentasjon fra skolens side.</p>
+```
+
+```{=html}
+<p>Resultatet er at kommunen uten problem kan frasi seg ansvaret ved å hevde at det ikke har vært noe mobbing.</p>
+```
+
+```{=html}
+<p>Det er dette jeg frykter kan bli resultatet av mindre rapportering. Derfor er det utrolig viktig at kun unødig rapportering som ikke omhandler dokumentasjon av pasientbehandling er det eneste som reduseres!</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fmindre-byrakratisk-psykiatri%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Mindre%20byr%C3%A5kratisk%20psykiatri&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fmindre-byrakratisk-psykiatri%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Mindre%20byr%C3%A5kratisk%20psykiatri&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Fmindre-byrakratisk-psykiatri%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/mindre-byrakratisk-psykiatri/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```

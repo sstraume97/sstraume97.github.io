@@ -1,0 +1,122 @@
+---
+title: "Hjem"
+page-layout: article
+toc: false
+listing:
+  id: latest
+  contents: "blogg/*/index.qmd"
+  max-items: 3
+  type: grid
+  sort: "date desc"
+  fields: [title, date, reading-time, description, categories]
+  sort-ui: false
+  filter-ui: false
+  date-format: "D MMM YYYY"
+---
+
+:::: {.hero-grid}
+::: {}
+<div class="kicker">Nestleder · formidler · brukermedvirker</div>
+
+# Et inkluderende og varmere samfunn – for alle.
+
+<p class="lede">Jeg er Sondre Bogen-Straume, nestleder i Autismeforeningen i Norge, produsent og host for Autismepodden, og folkevalgt i Råd for personer med funksjonsnedsettelse i Tønsberg. Jeg holder kurs, lager podcast og skriver om autismespekterdiagnoser – faglig forankret og erfaringsbasert, som autist.</p>
+
+<div style="display:flex; gap:var(--space-3); margin-top:var(--space-4); flex-wrap:wrap">
+[Les bloggen](blogg/index.qmd){.btn .btn-primary}
+[Se CV](cv/index.qmd){.btn .btn-secondary}
+[Prosjekter →](prosjekter/index.qmd){.btn .btn-secondary}
+</div>
+:::
+
+::: {.hero-portrait}
+<img src="https://sondrestraume.wordpress.com/wp-content/uploads/2026/07/cropped-7f9a5916-1.jpg" alt="Portrett av Sondre Bogen-Straume">
+:::
+::::
+
+:::: {.divider}
+::: {.line}
+:::
+::: {.dot}
+:::
+::: {.dot .mid}
+:::
+::: {.dot}
+:::
+::: {.line}
+:::
+::::
+
+:::: {.services-grid}
+::: {.card-box}
+### Formidling
+Autismefaglig kompetanse, kursutvikling og innholdsproduksjon – podcast, blogg og tekst.
+:::
+::: {.card-box}
+### Organisasjon & strategi
+Ledelse av frivillige organisasjoner, styringsdokumenter, interessepolitikk og påvirkning.
+:::
+::: {.card-box}
+### Brukermedvirkning
+Rådgivning på system- og strategisk nivå i offentlig sektor og spesialisthelsetjenesten.
+:::
+::::
+
+:::: {.divider}
+::: {.line}
+:::
+::: {.dot}
+:::
+::: {.dot .mid}
+:::
+::: {.dot}
+:::
+::: {.line}
+:::
+::::
+
+<div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:var(--space-4)">
+<h2 style="margin:0">Siste fra bloggen</h2>
+<a href="blogg/index.qmd" class="btn btn-ghost">Alle innlegg →</a>
+</div>
+
+::: {#latest}
+:::
+
+:::: {.podcast-box}
+::: {}
+<div class="card-kicker">Podkast</div>
+
+## Autismepodden
+
+<p class="text-muted">Norges første podcast om autisme – en podcast av og med autister, om autisme og relaterte emner.</p>
+
+[Besøk autismepodden.no →](https://www.autismepodden.no/){.btn .btn-secondary target="_blank" rel="noopener"}
+:::
+
+::: {}
+```{=html}
+<div class="podcast-episode">
+  <button class="btn btn-icon btn-primary" aria-label="Spill av episode 1"><span style="margin-left:2px">▶</span></button>
+  <div style="flex:1; min-width:0">
+    <div style="font-family:'Playfair Display',Georgia,serif; font-size:15px">Hva er autisme?</div>
+    <div class="meta">Episode 1 · 2020 · 32 min</div>
+  </div>
+</div>
+<div class="podcast-episode">
+  <button class="btn btn-icon btn-primary" aria-label="Spill av episode 2"><span style="margin-left:2px">▶</span></button>
+  <div style="flex:1; min-width:0">
+    <div style="font-family:'Playfair Display',Georgia,serif; font-size:15px">Autisme og skole</div>
+    <div class="meta">Episode 2 · 2020 · 28 min</div>
+  </div>
+</div>
+<div class="podcast-episode">
+  <button class="btn btn-icon btn-primary" aria-label="Spill av episode 3"><span style="margin-left:2px">▶</span></button>
+  <div style="flex:1; min-width:0">
+    <div style="font-family:'Playfair Display',Georgia,serif; font-size:15px">Å være pårørende</div>
+    <div class="meta">Episode 3 · 2020 · 35 min</div>
+  </div>
+</div>
+```
+:::
+::::

@@ -1,0 +1,19 @@
+---
+title: "Ordbøkene.no i StarDict-format"
+date: 2026-07-14
+description: "Bygger automatisk komplette StarDict-ordbøker av Bokmåls- og Nynorskordboka. Kombinerer data fra UiB og Språkbanken med en ressursvennlig, reproduserbar pipeline for månedlige utgivelser."
+page-layout: article
+toc: false
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+
+<p class="card-kicker">Programvare</p>
+
+Prosjektet bygger automatisk komplette StarDict-ordbøker av Bokmålsordboka og Nynorskordboka, slik at de kan brukes offline i ordboksverktøy som støtter StarDict-formatet.
+
+Løsningen kombinerer data fra Universitetet i Bergen og Språkbanken med en ressursvennlig, reproduserbar pipeline som gir nye utgivelser hver måned, i takt med oppdateringer i kildedataene.
+
+[Besøk Ordbøkene.no →](https://sondrestraume.wordpress.com/portfolio/ordbokene-no-i-stardict-format/){.btn .btn-primary target="_blank" rel="noopener"}
+
+[← Tilbake til prosjekter](../index.qmd){.btn .btn-ghost}

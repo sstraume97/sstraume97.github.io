@@ -1,0 +1,27 @@
+---
+title: "Rapport: Inkluderende fellesskap for barn og unge"
+date: 2018-06-04
+categories: ["mobbing", "Psykisk sykdom", "skole"]
+description: "[office src=\"https://onedrive.live.com/embed?cid=573222CEFC573D79&resid=573222CEFC573D79%2161132&authkey=AAY98nPL4dalmUg&em=2\"…"
+page-layout: article
+toc: false
+reading-time: true
+title-block-banner: false
+date-format: "D. MMMM YYYY"
+---
+:::: {.post-body}
+```{=html}
+<p>[office src="https://onedrive.live.com/embed?cid=573222CEFC573D79&resid=573222CEFC573D79%2161132&authkey=AAY98nPL4dalmUg&em=2" width="476" height="650"]</p>
+```
+
+::::
+
+```{=html}
+<div class="post-share">
+  <span>Del:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Frapport-inkluderende-fellesskap-for-barn-og-unge%2F" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?text=Rapport%3A%20Inkluderende%20fellesskap%20for%20barn%20og%20unge&url=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Frapport-inkluderende-fellesskap-for-barn-og-unge%2F" target="_blank" rel="noopener">X</a>
+  <a href="mailto:?subject=Rapport%3A%20Inkluderende%20fellesskap%20for%20barn%20og%20unge&body=https%3A%2F%2Fsstraume97.github.io%2Fhjem%2Fblogg%2Frapport-inkluderende-fellesskap-for-barn-og-unge%2F">E-post</a>
+  <button type="button" onclick="navigator.clipboard.writeText('https://sstraume97.github.io/hjem/blogg/rapport-inkluderende-fellesskap-for-barn-og-unge/');this.textContent='Lenke kopiert!'">Kopier lenke</button>
+</div>
+```
